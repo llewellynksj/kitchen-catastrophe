@@ -35,3 +35,32 @@ p {
     font-size: 20px;
     padding: 0 15px 15px 15px;
 }
+
+ul {
+    padding-bottom: 15px;
+}
+
+li {
+    max-width: 450px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #252525;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.border {
+    border: 1px solid #252525;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+}
