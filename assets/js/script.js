@@ -1,9 +1,6 @@
 // variables
 const theWord = document.getElementById("the-word");
 const userAnswer = document.getElementById("user-answer");
-let currentScore = document.getElementById("score");
-let currentLevel = document.getElementById("level");
-let currentAttempts = document.getElementById("attempts");
 let randomWord;
 let correctAnswer;
 let answerCounter;
@@ -136,7 +133,13 @@ function checkAnswer() {
 
 /** Update the score, level and attempts displayed to the user */
 function displayStats() {
+    let currentScore = document.getElementById("score");
+    let currentLevel = document.getElementById("level");
+    let currentAttempts = document.getElementById("attempts");
 
+    currentScore.innerHTML = score;
+    currentLevel.innerHTML = level;
+    currentAttempts.innerHTML = attempts; 
 }
 
 /** Clear the user's answer from the answer box */
