@@ -5,7 +5,38 @@ let randomWord;
 
 // modal variables
 
+// modal functions
+function displayWinModal() {
 
+}
+
+function displayLostModal() {
+
+}
+
+function displayCorrectModal() {
+
+}
+
+function displayIncorrectModal() {
+
+}
+
+function displayNoAnswerModal() {
+
+}
+
+function closeModalNewGame() {
+
+}
+
+function closeModalContinue() {
+
+}
+
+/** Starts the game
+ * Called when script is loaded
+ */
 function startGame() {
 
 }
