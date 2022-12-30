@@ -114,7 +114,7 @@ theWord.innerHTML = jumbleLetters(randomWord);
 function checkAnswer() {
     // Get the word that the user inputs
     let inputAnswer = userAnswer.value.toLocaleLowerCase();
-    correctAnswer = randomWord.toLowerCasee();
+    correctAnswer = randomWord.toLowerCase();
 
     // Checks the users answer against the correct word and if correct then increases the score, if no answer then show error message, or if incorrect then increases attempts
     if (inputAnswer === correctAnswer) {
