@@ -65,16 +65,17 @@ a {
     margin: 10px;
 }
 
-.buttons a {
+.buttons a, .buttons button {
     background-color: #FFC300;
     margin: 10px;
     padding: 10px;
+    border: 1px solid #252525;
     border-radius: 20px;
     font-weight: bold;
     width: 150px;
 }
 
-.buttons a:hover {
+.buttons a:hover, .buttons button:hover {
     color: #FFC300;
     background-color: #252525;
     cursor: pointer;
