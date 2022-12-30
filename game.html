@@ -49,6 +49,43 @@
     </div>
 </div>
 
+<div>
+    <div class="modal-container" id="win-modal">
+        <div class="modal-content">
+            <button class="close" onclick="closeModalNewGame()">Play Again?</button>
+            <p>Congratulations, you won!</p>
+        </div>
+    </div>
+
+    <div class="modal-container" id="lost-modal">
+        <div class="modal-content">
+            <button class="close" onclick="closeModalNewGame()">Play Again?</button>
+            <p>uh-oh! You're all out of lives! Bad luck!</p>
+        </div>
+    </div>
+
+    <div class="modal-container" id="correct-modal">
+        <div class="modal-content">
+            <button class="close" onclick="closeModalContinue()">Close</button>
+            <p>Yes! You got it right. Now on to the next...</p>
+        </div>
+    </div>
+
+    <div class="modal-container" id="incorrect-modal">
+        <div class="modal-content">
+            <button class="close" onclick="closeModalContinue()">Close</button>
+            <p>Sorry but that's not right. Try again!</p>
+        </div>
+    </div>
+
+    <div class="modal-container" id="no-answer-modal">
+        <div class="modal-content">
+            <button class="close" onclick="closeModalContinue()">Close</button>
+            <p>Oops! You've forgotten to enter an answer! Try again</p>
+        </div>
+    </div>
+</div>
+
 <script src="assets/js/script.js"></script>
 </body>
 </html>
