@@ -83,8 +83,7 @@ a {
 
 /* homepage styles */
 #go-button, #back-home {
-    border: 2px solid #252525;
-    padding: 10px 60px;
+    padding: 8px 55px;
 }
 
 #go-button {
