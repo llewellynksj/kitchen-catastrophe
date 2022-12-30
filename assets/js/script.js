@@ -14,7 +14,7 @@ let lostModal = document.getElementById("lost-modal");
 let correctModal = document.getElementById("correct-modal");
 let incorrectModal = document.getElementById("incorrect-modal");
 let noAnswerModal = document.getElementById("no-answer-modal");
-let closeButton = document.getElementById("close")[0];
+let closeButton = document.getElementsByClassName("close")[0];
 
 // modal functions
 /** Switches the win modal display from none (as per css) to block so that it is visible */
@@ -65,6 +65,7 @@ function startGame() {
     attempts = 0;
     answerCounter = 0;
     checkLevel();
+    loadButtons();
     displayStats();
 }
 
@@ -112,7 +113,7 @@ theWord.innerHTML = jumbleLetters(randomWord);
 /** Check the users answer against the correct word */
 function checkAnswer() {
     // Get the word that the user inputs
-    let inputAnswer = userAnswer.ariaValueMax.toLocaleLowerCase();
+    let inputAnswer = userAnswer.value.toLocaleLowerCase();
     correctAnswer = randomWord.toLowerCasee();
 
     // Checks the users answer against the correct word and if correct then increases the score, if no answer then show error message, or if incorrect then increases attempts
