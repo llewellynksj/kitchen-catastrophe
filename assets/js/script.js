@@ -3,6 +3,9 @@ const theWord = document.getElementById("the-word");
 const userAnswer = document.getElementById("user-answer");
 let randomWord;
 
+// modal variables
+
+
 function startGame() {
 
 }
@@ -48,14 +51,21 @@ if (level === 1) {
 theWord.innerHTML = jumbleLetters(randomWord);
 }
 
+/** Check the users answer against the correct word
+ * If correct then increase score
+ * If no answer then show error message
+ * If incorrect then increase attempts
+ */
 function checkAnswer() {
 
 }
 
+/** Update the score, level and attempts displayed to the user */
 function displayStats() {
 
 }
 
+/** Clear the user's answer from the answer box */
 function resetAnswerBox() {
 
 }
