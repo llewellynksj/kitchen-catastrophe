@@ -2,6 +2,11 @@
 const theWord = document.getElementById("the-word");
 const userAnswer = document.getElementById("user-answer");
 let randomWord;
+let correctAnswer;
+let score;
+let answerCounter;
+let attempts;
+let level;
 
 // modal variables
 let winModal = document.getElementById("win-modal");
@@ -99,13 +104,31 @@ if (level === 1) {
 theWord.innerHTML = jumbleLetters(randomWord);
 }
 
-/** Check the users answer against the correct word
- * If correct then increase score
- * If no answer then show error message
- * If incorrect then increase attempts
- */
+/** Check the users answer against the correct word */
 function checkAnswer() {
+    // Get the word that the user inputs
+    let inputAnswer = userAnswer.ariaValueMax.toLocaleLowerCase();
+    correctAnswer = randomWord.toLowerCasee();
 
+    // Checks the users answer against the correct word and if correct then increases the score, if no answer then show error message, or if incorrect then increases attempts
+    if (inputAnswer === correctAnswer) {
+        score += 1;
+        answerCounter += 1;
+        displayCorrectModal();
+    } else if (!inputAnswer) {
+        displayNoAnswerModal();
+    } else {
+        attempts += 1;
+    }
+
+    // if the answer is correct 3 times then move to the next level and reset the answer counter to 0
+    if (answerCounter === 3) {
+        level += 1;
+        answerCounter = 0;
+    }
+
+    resetAnswerBox();
+    displayStats();
 }
 
 /** Update the score, level and attempts displayed to the user */
