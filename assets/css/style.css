@@ -105,6 +105,7 @@ a {
 
 #stats {
     display: flex;
+    padding-top: 50px;
 }
 
 h3 {
