@@ -144,5 +144,5 @@ function displayStats() {
 
 /** Clear the user's answer from the answer box */
 function resetAnswerBox() {
-
+    userAnswer.value = "";
 }
