@@ -60,7 +60,12 @@ function closeModalContinue() {
  * Called when script is loaded
  */
 function startGame() {
-
+    score = 0;
+    level = 1;
+    attempts = 0;
+    answerCounter = 0;
+    checkLevel();
+    displayStats();
 }
 
 /** Get a random word from the array. Passing a parameter so that different arrays can be used dependent on level */
@@ -146,3 +151,14 @@ function displayStats() {
 function resetAnswerBox() {
     userAnswer.value = "";
 }
+
+/** Event listeners for the check answer and new game buttons */
+function loadButtons() {
+    let newGameButton = document.getElementById("new-game");
+    newGameButton.addEventListener("click", startGame)
+
+    let checkAnswerButton = document.getElementById("check-answer");
+    checkAnswerButton.addEventListener("click", checkAnswer)
+}
+
+startGame();
