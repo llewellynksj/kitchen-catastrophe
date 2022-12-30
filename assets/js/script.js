@@ -4,6 +4,12 @@ const userAnswer = document.getElementById("user-answer");
 let randomWord;
 
 // modal variables
+let winModal = document.getElementById("win-modal");
+let lostModal = document.getElementById("lost-modal");
+let correctModal = document.getElementById("correct-modal");
+let incorrectModal = document.getElementById("incorrect-modal");
+let noAnswerModal = document.getElementById("no-answer-modal");
+let closeButton = document.getElementById("close")[0];
 
 // modal functions
 function displayWinModal() {
