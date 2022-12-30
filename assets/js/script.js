@@ -12,30 +12,37 @@ let noAnswerModal = document.getElementById("no-answer-modal");
 let closeButton = document.getElementById("close")[0];
 
 // modal functions
+/** Switches the win modal display from none (as per css) to block so that it is visible */
 function displayWinModal() {
 
 }
 
+/** Switches the lost modal display from none (as per css) to block so that it is visible */
 function displayLostModal() {
 
 }
 
+/** Switches the correct modal display from none (as per css) to block so that it is visible */
 function displayCorrectModal() {
 
 }
 
+/** Switches the incorrect modal display from none (as per css) to block so that it is visible */
 function displayIncorrectModal() {
 
 }
 
+/** Switches the no answer modal display from none (as per css) to block so that it is visible */
 function displayNoAnswerModal() {
 
 }
 
+/** On clicking the close button in the modal this will start a new game and switch the modal display back to none */
 function closeModalNewGame() {
 
 }
 
+/** Switches the display of the modal back to none when the close button is clicked */
 function closeModalContinue() {
 
 }
