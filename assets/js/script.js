@@ -31,8 +31,21 @@ function jumbleLetters(randomWord) {
 
 }
 
+/** Check which level the user is at and run the getWord function to draw a word from the appropriate array by passing the array name as a parameter */
 function checkLevel() {
+if (level === 1) {
+    getWord(threeFourLetters);
+} else if (level === 2) {
+    getWord(fiveSixLetters);
+} else if (level === 3) {
+    getWord(sevenEightLetters);
+} else if (level === 4) {
+    getWord(tenLetters);
+} else {
+    displayWinModal();
+}
 
+theWord.innerHTML = jumbleLetters(randomWord);
 }
 
 function checkAnswer() {
