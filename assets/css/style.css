@@ -1,0 +1,17 @@
+/* google fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Permanent+Marker&display=swap');
+
+/* remove default styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* base styles */
+* {
+    font-family: Andika, sans-serif;
+    text-align: center;
+    list-style: none;
+    margin: 10px;
+}
