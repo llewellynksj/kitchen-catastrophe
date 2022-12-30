@@ -1,10 +1,13 @@
 // variables
 const theWord = document.getElementById("the-word");
 const userAnswer = document.getElementById("user-answer");
+let currentScore = document.getElementById("score");
+let currentLevel = document.getElementById("level");
+let currentAttempts = document.getElementById("attempts");
 let randomWord;
 let correctAnswer;
-let score;
 let answerCounter;
+let score;
 let attempts;
 let level;
 
