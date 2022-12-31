@@ -141,8 +141,8 @@ h3 {
     top: 15%;
     left: 50%;
     transform: translate(-50%, 0);
-    width: 250px;
-    height: 100px;
+    width: 325px;
+    height: 125px;
 }
 
 .close {
@@ -150,6 +150,10 @@ h3 {
     float: right;
     font-size: 15px;
     font-weight: bold;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    padding: 0 5px;
+    background-color: #FFF2C8;
 }
 
 .close:hover, .close:focus {
