@@ -49,6 +49,11 @@ function closeModalNewGame() {
     lostModal.style.display = "none";
 }
 
+function closeCorrectModal() {
+    correctModal.style.display = "none";
+    checkLevel();
+}
+
 /** Switches the display of the modal back to none when the close button is clicked */
 function closeModalContinue() {
     correctModal.style.display = "none";
