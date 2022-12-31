@@ -172,4 +172,14 @@ h3 {
         font-size: 15px;
         padding: 5px 25px;
     }
+
+    #stats {
+        flex-direction: column;
+    }
+
+    .modal-container div {
+        width: auto;
+        height: auto;
+
+    }
 }
