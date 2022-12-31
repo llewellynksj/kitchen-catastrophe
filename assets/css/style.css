@@ -101,10 +101,11 @@ a {
 }
 
 #user-answer {
-    min-width: 100px;
+    min-width: 300px;
     height: 50px;
     text-transform: uppercase;
     border: 1px solid #8e8e8e;
+    letter-spacing: 2px;
 }
 
 #stats {
@@ -164,6 +165,9 @@ h3 {
 
 /* smaller screen styles */
 @media only screen and (max-width: 400px) {
+    #user-answer {
+        min-width: 100px;
+    }
     #start-container {
         margin-top: 10px;
     }
@@ -181,5 +185,9 @@ h3 {
         width: auto;
         height: auto;
 
+    }
+
+    #the-word {
+        letter-spacing: 5px;
     }
 }

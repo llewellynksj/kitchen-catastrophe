@@ -51,7 +51,6 @@ const threeFourLetters = [
     "dill",
     "sage",
     "curd",
-    "edam",
     "spam",
     "salt"    
 ]
