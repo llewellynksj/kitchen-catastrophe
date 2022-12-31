@@ -109,7 +109,7 @@ if (level === 1) {
     getWord(sevenEightLetters);
 } else if (level === 4) {
     getWord(tenLetters);
-} else {
+} else if (level === 5) {
     displayWinModal();
 }
 
