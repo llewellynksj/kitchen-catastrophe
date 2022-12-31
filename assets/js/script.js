@@ -49,6 +49,7 @@ function closeModalNewGame() {
     lostModal.style.display = "none";
 }
 
+/** On clicking the close button in this modal the checkLevel function will run and the modal will switch back to a display of none */
 function closeCorrectModal() {
     correctModal.style.display = "none";
     checkLevel();
@@ -121,7 +122,7 @@ function checkAnswer() {
     let inputAnswer = userAnswer.value.toLocaleLowerCase();
     correctAnswer = randomWord.toLowerCase();
 
-    // Checks the users answer against the correct word and if correct then increases the score, if no answer then show error message, or if incorrect then increases attempts
+    // Checks the users answer against the correct word and if correct then increases the score, if no answer then show error message, or if incorrect then check attempts
     if (inputAnswer === correctAnswer) {
         score += 1;
         answerCounter += 1;
@@ -129,7 +130,7 @@ function checkAnswer() {
     } else if (!inputAnswer) {
         displayNoAnswerModal();
     } else {
-        attempts += 1;
+        checkAttempts();
     }
 
     // if the answer is correct 3 times then move to the next level and reset the answer counter to 0
@@ -140,6 +141,17 @@ function checkAnswer() {
 
     resetAnswerBox();
     displayStats();
+}
+
+// If users answer is incorrect function checks number of attempts and displays relevent modal
+function checkAttempts() {
+    if (attempts <= 1) {
+        attempts += 1;
+        displayIncorrectModal();
+    } else {
+        displayLostModal();
+        startGame();
+    }
 }
 
 /** Update the score, level and attempts displayed to the user */
