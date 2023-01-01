@@ -53,6 +53,7 @@ function closeModalNewGame() {
 function closeCorrectModal() {
     correctModal.style.display = "none";
     checkLevel();
+    displayIcon();
 }
 
 /** Switches the display of the modal back to none when the close button is clicked */
@@ -190,6 +191,7 @@ function displayIcon() {
     let foodIcon = document.getElementById("food-icon");
     let drinkIcon = document.getElementById("drink-icon");
     let methodsIcon = document.getElementById("methods-icon");
+    let tenCategory = document.getElementById("ten-letters");
 
     if (level === 1) {
         foodIcon.style.display = "block";
@@ -207,6 +209,9 @@ function displayIcon() {
         methodsIcon.style.display = "block";
     } else if (level === 6) {
         methodsIcon.style.display = "none";
+        tenCategory.style.display = "block";
+    } else if (level === 7) {
+        tenCategory.style.display = "none";
     }
 }
 
