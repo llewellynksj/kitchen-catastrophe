@@ -138,7 +138,7 @@ function checkAnswer() {
     }
 
     // if the answer is correct 3 times then move to the next level and reset the answer counter to 0
-    if (answerCounter === 3) {
+    if (answerCounter === 2) {
         level += 1;
         answerCounter = 0;
     }
