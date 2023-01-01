@@ -164,7 +164,7 @@ h3 {
 }
 
 /* smaller screen styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 475px) {
     #user-answer {
         min-width: 100px;
     }
@@ -189,5 +189,9 @@ h3 {
 
     #the-word {
         letter-spacing: 5px;
+    }
+
+    #end-buttons * {
+        margin: 0 30px 30px 30px;
     }
 }
