@@ -16,6 +16,10 @@
     margin: 10px;
 }
 
+body {
+    background-image: url(../images/foodbackground.webp);
+}
+
 h1 {
     font-family: "Permanent Marker", sans-serif;
     font-weight: lighter;
@@ -48,6 +52,11 @@ a {
     justify-content: center;
     align-items: center;
     min-height: 50vh;
+    
+}
+
+.container div {
+    background-color: white;
 }
 
 .border {
