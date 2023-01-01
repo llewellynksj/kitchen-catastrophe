@@ -36,14 +36,6 @@ p {
     padding: 0 15px 15px 15px;
 }
 
-ul {
-    padding-bottom: 15px;
-}
-
-li {
-    max-width: 450px;
-}
-
 a {
     text-decoration: none;
     font-size: 15px;
@@ -82,6 +74,25 @@ a {
 }
 
 /* homepage styles */
+li {
+    max-width: 450px;
+    text-align: left;
+}
+
+#rules i {
+    font-size: 15px;
+    padding: 0;
+}
+
+#rules {
+    margin-bottom: 15px;
+}
+
+i {
+    font-size: 30px;
+    padding: 10px 5px 5px 5px;
+}
+
 #go-button, #back-home {
     padding: 8px 55px;
 }
