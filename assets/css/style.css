@@ -106,6 +106,14 @@ i {
 }
 
 /* game page styles */
+/* #icon-container {
+    display: none;
+} */
+
+#food-icon, #drink-icon, #methods-icon {
+    display: none;
+}
+
 #the-word {
     text-transform: uppercase;
     letter-spacing: 10px;

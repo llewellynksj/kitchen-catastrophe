@@ -73,6 +73,7 @@ function startGame() {
     checkLevel();
     loadButtons();
     displayStats();
+    displayIcon();
 }
 
 /** Get a random word from the array. Passing a parameter so that different arrays can be used dependent on level */
@@ -181,6 +182,28 @@ function loadButtons() {
 
     let checkAnswerButton = document.getElementById("check-answer");
     checkAnswerButton.addEventListener("click", checkAnswer)
+}
+
+function displayIcon() {
+    let foodIcon = document.getElementById("food-icon");
+    let drinkIcon = document.getElementById("drink-icon");
+    let methodsIcon = document.getElementById("methods-icon");
+
+    if (level === 1) {
+        foodIcon.style.display = "block";
+    } else if (level === 2) {
+        drinkIcon.style.display = "block";
+    } else if (level === 3) {
+        foodIcon.style.display = "block";
+    } else if (level === 4) {
+        drinkIcon.style.display = "block";
+    } else if (level === 5) {
+        methodsIcon.style.display = "block";
+    } else if (level === 6) {
+        foodIcon.style.display = "block";
+        drinkIcon.style.display = "block";
+        methodsIcon.style.display = "block";
+    }
 }
 
 startGame();
