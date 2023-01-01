@@ -35,6 +35,14 @@ h2 {
     max-width: 500px;
 }
 
+.chef {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
 p {
     font-size: 20px;
     padding: 0 15px 15px 15px;
@@ -71,7 +79,7 @@ a {
 }
 
 .buttons a, .buttons button {
-    background-color: #D4F29E;
+    background-color: #F3DE2C;
     margin: 10px;
     padding: 10px;
     border: 2px solid #252525;
@@ -81,20 +89,12 @@ a {
 }
 
 .buttons a:hover, .buttons button:hover {
-    color: #D4F29E;
+    color: #F3DE2C;
     background-color: #252525;
     cursor: pointer;
 }
 
 /* homepage styles */
-#chef {
-    height: 200px;
-    width: auto;
-    position: absolute;
-    top: -50px;
-    right: -50px;
-}
-
 li {
     max-width: 450px;
     text-align: left;
@@ -162,7 +162,7 @@ h3 {
     border: 1px solid #252525;
     border-radius: 10px;
     border-style: outset;
-    border-color: #9FE32A;
+    border-color: #F3DE2C;
     padding: 5px 10px;
 }
 
@@ -178,7 +178,7 @@ h3 {
 }
 
 .modal-container div {
-    background-color: #D4F29E;
+    background-color: #F3DE2C;
     margin: 0 auto;
     border: 5px solid #252525;
     border-radius: 10px;
@@ -198,7 +198,7 @@ h3 {
     border: 1px solid #252525;
     border-radius: 5px;
     padding: 0 5px;
-    background-color:#9FE32A;
+    background-color:#FAF1A4;
 }
 
 .close:hover, .close:focus {
@@ -208,7 +208,7 @@ h3 {
 }
 
 @media only screen and (max-width: 590px) {
-    #chef {
+    .chef {
         height: 150px;
         z-index: 1;
     }
@@ -245,14 +245,10 @@ h3 {
     #end-buttons * {
         margin: 0 30px 30px 30px;
     }
-
-    #chef {
-        height: 150px;
-    }
 }
 
 @media only screen and (max-width: 475px) {
-    #chef {
+    .chef {
         height: 120px;
         top: -20px;
         right: -60px;
