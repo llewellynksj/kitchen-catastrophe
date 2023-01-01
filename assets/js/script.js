@@ -145,7 +145,7 @@ function checkAnswer() {
 
     resetAnswerBox();
     displayStats();
-    displayIcon();
+    
 }
 
 /** If users answer is correct function checks if user has reached the end of the game */
