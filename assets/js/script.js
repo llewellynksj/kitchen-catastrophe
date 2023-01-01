@@ -146,6 +146,7 @@ function checkAnswer() {
 
     resetAnswerBox();
     displayStats();
+    displayIcon();
 }
 
 // If users answer is incorrect function checks number of attempts and displays relevent modal
@@ -184,6 +185,7 @@ function loadButtons() {
     checkAnswerButton.addEventListener("click", checkAnswer)
 }
 
+/** Displays the category icon dependent on the level */
 function displayIcon() {
     let foodIcon = document.getElementById("food-icon");
     let drinkIcon = document.getElementById("drink-icon");
@@ -192,17 +194,19 @@ function displayIcon() {
     if (level === 1) {
         foodIcon.style.display = "block";
     } else if (level === 2) {
+        foodIcon.style.display = "none";
         drinkIcon.style.display = "block";
     } else if (level === 3) {
+        drinkIcon.style.display = "none";
         foodIcon.style.display = "block";
     } else if (level === 4) {
+        foodIcon.style.display = "none";
         drinkIcon.style.display = "block";
     } else if (level === 5) {
+        drinkIcon.style.display = "none";
         methodsIcon.style.display = "block";
     } else if (level === 6) {
-        foodIcon.style.display = "block";
-        drinkIcon.style.display = "block";
-        methodsIcon.style.display = "block";
+        methodsIcon.style.display = "none";
     }
 }
 

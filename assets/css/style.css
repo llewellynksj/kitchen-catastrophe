@@ -112,6 +112,13 @@ i {
 
 #food-icon, #drink-icon, #methods-icon {
     display: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+#food-icon i, #drink-icon i, #methods-icon i {
+    font-size: 20px;
 }
 
 #the-word {
@@ -129,7 +136,7 @@ i {
 
 #stats {
     display: flex;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 h3 {
