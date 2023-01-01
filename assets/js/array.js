@@ -48,7 +48,6 @@ const levelOneFood = [
     "honey",
     "flour",
     "leeks",
-    "lemon",
     "onion",
     "sumac",
     "mango",

@@ -116,7 +116,7 @@ if (level === 1) {
 } else if (level === 6) {
     getWord(tenLetters);
 } else if (level === 7) {
-    displayWinModal();
+    checkWinner();
 }
 
 theWord.innerHTML = jumbleLetters(randomWord);
@@ -130,9 +130,7 @@ function checkAnswer() {
 
     // Checks the users answer against the correct word and if correct then increases the score, if no answer then show error message, or if incorrect then check attempts
     if (inputAnswer === correctAnswer) {
-        score += 1;
-        answerCounter += 1;
-        displayCorrectModal();
+        checkWinner();
     } else if (!inputAnswer) {
         displayNoAnswerModal();
     } else {
@@ -150,7 +148,18 @@ function checkAnswer() {
     displayIcon();
 }
 
-// If users answer is incorrect function checks number of attempts and displays relevent modal
+/** If users answer is correct function checks if user has reached the end of the game */
+function checkWinner() {
+    if (level <= 6) {
+        score += 1;
+        answerCounter += 1;
+        displayCorrectModal();
+    } else if (level === 7) {
+        displayWinModal();
+    }
+}
+
+/**  If users answer is incorrect function checks number of attempts and displays relevent modal */
 function checkAttempts() {
     if (attempts <= 1) {
         attempts += 1;
@@ -195,6 +204,9 @@ function displayIcon() {
 
     if (level === 1) {
         foodIcon.style.display = "block";
+        drinkIcon.style.display = "none";
+        methodsIcon.style.display = "none";
+        tenCategory.style.display = "none";
     } else if (level === 2) {
         foodIcon.style.display = "none";
         drinkIcon.style.display = "block";
