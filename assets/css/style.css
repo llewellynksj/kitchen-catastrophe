@@ -70,7 +70,7 @@ a {
 }
 
 .buttons a, .buttons button {
-    background-color: #FFC300;
+    background-color: #9FE32A;
     margin: 10px;
     padding: 10px;
     border: 2px solid #252525;
@@ -80,7 +80,7 @@ a {
 }
 
 .buttons a:hover, .buttons button:hover {
-    color: #FFC300;
+    color: #9FE32A;
     background-color: #252525;
     cursor: pointer;
 }
@@ -153,7 +153,7 @@ h3 {
     border: 1px solid #252525;
     border-radius: 10px;
     border-style: outset;
-    border-color: #FFC300;
+    border-color: #9FE32A;
     padding: 5px 10px;
 }
 
@@ -169,7 +169,7 @@ h3 {
 }
 
 .modal-container div {
-    background-color: #FFC300;
+    background-color: #D4F29E;
     margin: 0 auto;
     border: 5px solid #252525;
     border-radius: 10px;
@@ -189,7 +189,7 @@ h3 {
     border: 1px solid #252525;
     border-radius: 5px;
     padding: 0 5px;
-    background-color: #FFF2C8;
+    background-color:#9FE32A;
 }
 
 .close:hover, .close:focus {
