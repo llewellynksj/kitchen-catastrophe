@@ -78,7 +78,7 @@ a {
 }
 
 .buttons a, .buttons button {
-    background-color: #F3DE2C;
+    background-color: #e1ad01;
     margin: 10px;
     padding: 10px;
     border: 2px solid #252525;
@@ -88,7 +88,7 @@ a {
 }
 
 .buttons a:hover, .buttons button:hover {
-    color: #F3DE2C;
+    color: #e1ad01;
     background-color: #252525;
     cursor: pointer;
 }
@@ -172,7 +172,7 @@ h3 {
     border: 1px solid #252525;
     border-radius: 10px;
     border-style: outset;
-    border-color: #F3DE2C;
+    border-color: #e1ad01;
     padding: 5px 10px;
 }
 
@@ -188,7 +188,7 @@ h3 {
 }
 
 .modal-container div {
-    background-color: #F3DE2C;
+    background-color: #e1ad01;
     margin: 0 auto;
     border: 5px solid #252525;
     border-radius: 10px;
