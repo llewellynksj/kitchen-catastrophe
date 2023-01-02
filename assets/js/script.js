@@ -87,7 +87,7 @@ function getWord(array) {
 function jumbleLetters(randomWord) {
 
     // splitting the letters of the random word
-    let letterMix = randomWord.split("");
+    let letterMix = randomWord.word.split("");
 
     // shuffling the letters using Fisher-Yates algorithm (code taken from James Bubb: https://bit.ly/3XZ3S6y)
     for (let i = letterMix.length - 1; i > 0; i--) {
@@ -120,13 +120,16 @@ if (level === 1) {
 }
 
 theWord.innerHTML = jumbleLetters(randomWord);
+
+let theClue = document.getElementById("clue");
+theClue.innerHTML = randomWord.clue;
 }
 
 /** Check the users answer against the correct word */
 function checkAnswer() {
     // Get the word that the user inputs
     let inputAnswer = userAnswer.value.toLocaleLowerCase();
-    correctAnswer = randomWord.toLowerCase();
+    correctAnswer = randomWord.word.toLowerCase();
 
     // Checks the users answer against the correct word and if correct then increases the score, if no answer then show error message, or if incorrect then check attempts
     if (inputAnswer === correctAnswer) {
