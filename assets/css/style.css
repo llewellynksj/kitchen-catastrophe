@@ -44,7 +44,7 @@ h2 {
 
 p {
     font-size: 20px;
-    padding: 0 15px 15px 15px;
+    padding: 15px;
 }
 
 a {
@@ -141,6 +141,17 @@ i {
 #the-word {
     text-transform: uppercase;
     letter-spacing: 15px;
+    margin: 20px 10px;
+    font-size: 25px;
+}
+
+#display-clue {
+    font-size: 15px;
+    padding: 15px 0 0 0;
+}
+
+#icon-container {
+    margin: 0;
 }
 
 #user-answer {
