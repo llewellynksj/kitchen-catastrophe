@@ -81,7 +81,6 @@ a {
     background-color: #90CE67;
     margin: 10px;
     padding: 10px;
-    border: 2px solid #252525;
     border-radius: 20px;
     font-weight: bold;
     width: 150px;
@@ -114,7 +113,7 @@ i {
 }
 
 #go-button, #back-home {
-    padding: 8px 55px;
+    padding: 8px 60px;
 }
 
 #go-button {
@@ -126,43 +125,6 @@ i {
 }
 
 /* game page styles */
-
-#food-icon, #drink-icon, #methods-icon, #ten-letters {
-    display: none;
-    padding: 0;
-    margin: 0 auto;
-    font-size: 15px;
-}
-
-#food-icon i, #drink-icon i, #methods-icon i {
-    font-size: 20px;
-}
-
-#the-word {
-    text-transform: uppercase;
-    letter-spacing: 20px;
-    margin: 20px 10px;
-    font-size: 25px;
-}
-
-#display-clue {
-    font-size: 15px;
-    padding: 0;
-    margin: 0 auto;
-}
-
-#icon-container {
-    margin: 0;
-}
-
-#user-answer {
-    min-width: 300px;
-    height: 50px;
-    text-transform: uppercase;
-    border: 1px solid #8e8e8e;
-    letter-spacing: 2px;
-}
-
 #stats {
     display: flex;
     margin: 0 auto;
@@ -190,6 +152,43 @@ i {
     border-radius: 10px;
     padding: 2px 0 2px 8px;
 }
+
+#icon-container {
+    margin: 0;
+}
+
+#food-icon, #drink-icon, #methods-icon, #ten-letters {
+    display: none;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+#food-icon i, #drink-icon i, #methods-icon i {
+    font-size: 20px;
+}
+
+#the-word {
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    margin: 20px 10px;
+    font-size: 25px;
+}
+
+#display-clue {
+    font-size: 15px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#user-answer {
+    min-width: 300px;
+    height: 50px;
+    text-transform: uppercase;
+    border: 1px solid #8e8e8e;
+    letter-spacing: 2px;
+}
+
 
 /* modal styles */
 .modal-container {
