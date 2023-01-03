@@ -123,6 +123,8 @@ theWord.innerHTML = jumbleLetters(randomWord);
 
 let theClue = document.getElementById("clue");
 theClue.innerHTML = randomWord.clue;
+
+document.getElementById("user-answer").focus();
 }
 
 /** Check the users answer against the correct word */
