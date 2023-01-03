@@ -19,22 +19,27 @@ const closeButton = document.getElementsByClassName("close")[0];
 // modal display functions
 function displayWinModal() {
     winModal.style.display = "block";
+    winModal.addEventListener("click", closeModalNewGame)
 }
 
 function displayLostModal() {
     lostModal.style.display = "block";
+    lostModal.addEventListener("click", closeModalNewGame)
 }
 
 function displayCorrectModal() {
     correctModal.style.display = "block";
+    correctModal.addEventListener("click", closeCorrectModal)
 }
 
 function displayIncorrectModal() {
     incorrectModal.style.display = "block";
+    incorrectModal.addEventListener("click", closeModalContinue)
 }
 
 function displayNoAnswerModal() {
     noAnswerModal.style.display = "block";
+    noAnswerModal.addEventListener("click", closeModalContinue)
 }
 
 // modal close functions
