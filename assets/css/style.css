@@ -32,7 +32,7 @@ h2 {
     font-weight: lighter;
     font-size: 20px;
     padding-bottom: 15px;
-    max-width: 500px;
+    max-width: 520px;
 }
 
 .chef-image {
@@ -94,7 +94,7 @@ a {
 
 /* homepage styles */
 li {
-    max-width: 450px;
+    max-width: 480px;
     text-align: left;
 }
 
