@@ -165,7 +165,7 @@ const levelOneFood = [
         clue: "Dairy"
     },
     {
-        word: "crêpe",
+        word: "crepe",
         clue: "A popular breakfast and dessert dish"
     },
     {
@@ -587,7 +587,7 @@ const levelOneDrink = [
         clue: "Spirit"
     },
     {
-        word: "rosé",
+        word: "rose",
         clue: "Wine"
     },
     {
@@ -810,7 +810,7 @@ const levelTwoDrink = [
         clue: "A popular Christmas drink"
     },
     {
-        word: "frappé",
+        word: "frappe",
         clue: "Coffee"
     },
     {

@@ -24,19 +24,19 @@ h1 {
     font-family: "Permanent Marker", sans-serif;
     font-weight: lighter;
     font-size: 30px;
-    margin: 10px;
+    margin: 5px 10px;
     padding-top: 10px
 }
 
 h2 {
     font-weight: lighter;
-    font-size: 20px;
-    padding-bottom: 15px;
+    font-size: 18px;
+    padding-bottom: 5px;
     max-width: 520px;
 }
 
 .chef-image {
-    height: 180px;
+    height: 140px;
     width: auto;
     margin: 0;
     padding: 0;
@@ -59,10 +59,6 @@ a {
     justify-content: center;
     align-items: center;
     min-height: 50vh;    
-}
-
-.main-container {
-    margin-top: 50px;
 }
 
 .container div {
@@ -108,17 +104,17 @@ li {
 }
 
 i {
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px 5px 5px 5px;
 }
 
 #go-button {
-    padding: 8px 60px;
+    width: 200px;
     font-size: 20px;
 }
 
 #start-container {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 /* game page styles */
