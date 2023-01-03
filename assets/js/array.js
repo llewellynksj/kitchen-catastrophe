@@ -222,7 +222,7 @@ const levelOneFood = [
     },
     {
         word: "sugar",
-        clue: ""
+        clue: "Sweetner"
     },
     {
         word: "squid",
