@@ -1001,7 +1001,7 @@ const tenLetters = [
     },
     {
         word: "parboiling",
-        clue: "Semi cooking in hot liquid"
+        clue: "Partial cooking in hot liquid"
     },
     {
         word: "chiffonade",

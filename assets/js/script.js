@@ -142,7 +142,7 @@ function checkAnswer() {
         checkAttempts();
     }
 
-    // if the answer is correct 3 times then move to the next level and reset the answer counter to 0
+    // if the answer is correct 2 times then move to the next level and reset the answer counter to 0
     if (answerCounter === 2) {
         level += 1;
         answerCounter = 0;
@@ -155,14 +155,15 @@ function checkAnswer() {
 
 /** If users answer is correct function checks if user has reached the end of the game */
 function checkWinner() {
-    if (level <= 6) {
+    if (score === 11) {
+        score += 1;
+        answerCounter += 1;
+        displayWinModal();
+    } else if (score < 11) {
         score += 1;
         answerCounter += 1;
         displayCorrectModal();
-    } else if (level === 7) {
-        displayWinModal();
-    }
-}
+}}
 
 /**  If users answer is incorrect function checks number of attempts and displays relevent modal */
 function checkAttempts() {
