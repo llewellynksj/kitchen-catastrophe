@@ -9,12 +9,12 @@ let attempts;
 let level;
 
 // modal variables
-let winModal = document.getElementById("win-modal");
-let lostModal = document.getElementById("lost-modal");
-let correctModal = document.getElementById("correct-modal");
-let incorrectModal = document.getElementById("incorrect-modal");
-let noAnswerModal = document.getElementById("no-answer-modal");
-let closeButton = document.getElementsByClassName("close")[0];
+const winModal = document.getElementById("win-modal");
+const lostModal = document.getElementById("lost-modal");
+const correctModal = document.getElementById("correct-modal");
+const incorrectModal = document.getElementById("incorrect-modal");
+const noAnswerModal = document.getElementById("no-answer-modal");
+const closeButton = document.getElementsByClassName("close")[0];
 
 // modal functions
 /** Switches the win modal display from none (as per css) to block so that it is visible */
