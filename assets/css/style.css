@@ -239,6 +239,18 @@ i {
 
 /* smaller screen styles */
 @media only screen and (max-width: 475px) {
+    li {
+        max-width: 450px;
+    }
+
+    .chef-image {
+        height: 120px;
+    }
+
+    #stats {
+    flex-wrap: wrap;
+    }
+    
     #user-answer {
         min-width: 100px;
     }
@@ -254,7 +266,6 @@ i {
     .modal-container div {
         width: auto;
         height: auto;
-
     }
 
     #the-word {
