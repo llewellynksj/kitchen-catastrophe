@@ -18,6 +18,8 @@
 
 body {
     background-image: url(../images/foodbackground.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
