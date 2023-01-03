@@ -115,10 +115,15 @@ i {
     padding: 10px 5px 5px 5px;
 }
 
+#start-container {
+    border-radius: 20px;
+}
+
 #go-button {
     width: 200px;
     font-size: 18px;
     font-weight: lighter;
+    margin: 0;
 }
 
 /* game page styles */
