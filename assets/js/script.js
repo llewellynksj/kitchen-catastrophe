@@ -198,6 +198,14 @@ function loadButtons() {
 
     let checkAnswerButton = document.getElementById("check-answer");
     checkAnswerButton.addEventListener("click", checkAnswer)
+
+    // Enable user to press enter to check answer
+    // code taken from Code Institute Love Maths project walkthrough: https://bit.ly/3Z9GuUs
+    document.getElementById("user-answer").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            checkAnswer();
+        }
+    })
 }
 
 /** Displays the category icon dependent on the level */
