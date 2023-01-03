@@ -61,6 +61,7 @@ function closeModalContinue() {
     correctModal.style.display = "none";
     incorrectModal.style.display = "none";
     noAnswerModal.style.display = "none";
+    document.getElementById("user-answer").focus();
 }
 
 /** Starts the game
