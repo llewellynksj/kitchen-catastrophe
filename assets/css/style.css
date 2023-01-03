@@ -13,13 +13,13 @@
     font-family: Andika, sans-serif;
     text-align: center;
     list-style: none;
-    margin: 10px;
 }
 
 body {
     background-image: url(../images/foodbackground.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
 }
 
 h1 {
@@ -60,11 +60,16 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;    
+    min-height: 50vh;   
+    margin: 10px; 
 }
 
 .container div {
     background-color: white;
+}
+
+.container * {
+    margin: 10px;
 }
 
 .border {
