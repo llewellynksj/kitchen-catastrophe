@@ -19,7 +19,7 @@
         <h2>Unscramble the words!</h2>
 
         <!-- Stats information -->
-        <div id="stats">
+        <div class="flex-container">
             <div id="display-level">
                 <p>Level:<span id="level"></span></p>
             </div>
@@ -73,35 +73,36 @@
     <div class="modal-container" id="win-modal">
         <div class="modal-content">
             <p>Congratulations <br> You win!<i class="fa-duotone fa-trophy-star"></i></p>
-            <button class="close" onclick="closeModalNewGame()">Play Again?</button>
+            <button class="modal-button" onclick="closeModalNewGame()">Play Again?</button>
         </div>
     </div>
 
     <div class="modal-container" id="lost-modal">
         <div class="modal-content">
-            <p>uh-oh! You're all out of lives!<br> Bad luck!<i class="fa-solid fa-skull-crossbones"></i></p>
-            <button class="close" onclick="closeModalNewGame()">Play Again?</button>            
+            <p>Uh-oh! You're all out of lives!<br> Bad luck!<i class="fa-solid fa-skull-crossbones"></i></p>
+            <button class="modal-button" onclick="closeModalNewGame()">Play Again?</button>
+            <a class="modal-button" href="index.html">Home</a>        
         </div>
     </div>
 
     <div class="modal-container" id="correct-modal">
         <div class="modal-content">
             <p>Correct!<br> Keep going!</p>
-            <button class="close" onclick="closeCorrectModal()">Close</button>
+            <button class="modal-button" onclick="closeCorrectModal()">Close</button>
         </div>
     </div>
 
     <div class="modal-container" id="incorrect-modal">
         <div class="modal-content">
             <p>Erm, that's wrong <br> Try again!</p>
-            <button class="close" onclick="closeModalContinue()">Close</button>
+            <button class="modal-button" onclick="closeModalContinue()">Close</button>
         </div>
     </div>
 
     <div class="modal-container" id="no-answer-modal">
         <div class="modal-content">
             <p>Oops! You've forgotten to enter a guess!<br>Try again</p>
-            <button class="close" onclick="closeModalContinue()">Close</button>
+            <button class="modal-button" onclick="closeModalContinue()">Close</button>
         </div>
     </div>
 </div>

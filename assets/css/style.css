@@ -127,12 +127,12 @@ i {
 }
 
 /* game page styles */
-#stats {
+.flex-container {
     display: flex;
     margin: 0 auto;
 }
 
-#stats div {
+#display-level, #display-score, #display-attempts {
     margin: 0 auto;
 }
 
@@ -228,18 +228,20 @@ i {
     padding-bottom: 50px;
 }
 
-.close {
+.modal-content a {
+    appearance: button;
+}
+
+.modal-button {
     color: #252525;
-    /* float: right; */
     font-size: 15px;
-    font-weight: bold;
-    border: 1px solid #252525;
     border-radius: 5px;
+    margin: 10px 0;
     padding: 0 5px;
     background-color:#BEE2A6;
 }
 
-.close:hover, .close:focus {
+.modal-button:hover, .modal-button:focus {
     color: #252525;
     text-decoration: none;
     cursor: pointer;
