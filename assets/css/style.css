@@ -172,16 +172,23 @@ i {
     margin: 0 auto;
 }
 
-#display-level {
-    align-items: flex-start;
+#display-level p {
+    background-color: #BEE2A6;
+    border-radius: 10px;
+    padding: 2px 2px 2px 8px;
 }
 
-#display-score {
-    align-items: center;
+#display-score p {
+    background-color: #BEE2A6;
+    border-radius: 10px;
+    padding: 2px 2px 2px 8px;
+    font-weight: bold;
 }
 
-#display-level {
-    align-items: flex-end;
+#display-attempts p {
+    background-color: #BEE2A6;
+    border-radius: 10px;
+    padding: 2px 0 2px 8px;
 }
 
 /* modal styles */
