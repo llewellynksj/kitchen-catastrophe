@@ -16,47 +16,40 @@ const incorrectModal = document.getElementById("incorrect-modal");
 const noAnswerModal = document.getElementById("no-answer-modal");
 const closeButton = document.getElementsByClassName("close")[0];
 
-// modal functions
-/** Switches the win modal display from none (as per css) to block so that it is visible */
+// modal display functions
 function displayWinModal() {
     winModal.style.display = "block";
 }
 
-/** Switches the lost modal display from none (as per css) to block so that it is visible */
 function displayLostModal() {
     lostModal.style.display = "block";
 }
 
-/** Switches the correct modal display from none (as per css) to block so that it is visible */
 function displayCorrectModal() {
     correctModal.style.display = "block";
 }
 
-/** Switches the incorrect modal display from none (as per css) to block so that it is visible */
 function displayIncorrectModal() {
     incorrectModal.style.display = "block";
 }
 
-/** Switches the no answer modal display from none (as per css) to block so that it is visible */
 function displayNoAnswerModal() {
     noAnswerModal.style.display = "block";
 }
 
-/** On clicking the close button in the modal this will start a new game and switch the modal display back to none */
+// modal close functions
 function closeModalNewGame() {
     startGame();
     winModal.style.display = "none";
     lostModal.style.display = "none";
 }
 
-/** On clicking the close button in this modal the checkLevel function will run and the modal will switch back to a display of none */
 function closeCorrectModal() {
     correctModal.style.display = "none";
     checkLevel();
     displayIcon();
 }
 
-/** Switches the display of the modal back to none when the close button is clicked */
 function closeModalContinue() {
     correctModal.style.display = "none";
     incorrectModal.style.display = "none";
@@ -151,7 +144,6 @@ function checkAnswer() {
 
     resetAnswerBox();
     displayStats();
-    
 }
 
 /** If users answer is correct function checks if user has reached the end of the game */
