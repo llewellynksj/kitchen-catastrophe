@@ -518,7 +518,7 @@ const levelTwoFood = [
     {
         word: "tortilla",
         clue: "A vital part of many Mexican dishes"
-    },
+    }
     ]
 
 const levelOneDrink = [
@@ -661,7 +661,7 @@ const levelOneDrink = [
     {
         word: "brew",
         clue: "A nickname for beer typically made at home"
-    },
+    }
 ]
 
 const levelTwoDrink = [
@@ -836,7 +836,7 @@ const levelTwoDrink = [
     {
         word: "tisane",
         clue: "Herbal tea"
-    },
+    }
 ]
 
 const methods = [
@@ -983,7 +983,7 @@ const methods = [
     {
         word: "zest",
         clue: "Grating the outer skin of citrus fruit"
-    },
+    }
 ]
 
 const tenLetters = [

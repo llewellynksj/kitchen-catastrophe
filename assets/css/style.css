@@ -43,8 +43,8 @@ h2 {
 }
 
 p {
-    font-size: 20px;
-    padding: 15px;
+    font-size: 15px;
+    /* padding: 15px; */
 }
 
 a {
@@ -164,16 +164,23 @@ i {
 
 #stats {
     display: flex;
-    padding-top: 30px;
+    margin: 0 auto;
 }
 
-h3 {
-    font-size: larger;
-    border: 1px solid #252525;
-    border-radius: 10px;
-    border-style: outset;
-    border-color: #e1ad01;
-    padding: 5px 10px;
+#stats div {
+    margin: 0 auto;
+}
+
+#display-level {
+    align-items: flex-start;
+}
+
+#display-score {
+    align-items: center;
+}
+
+#display-level {
+    align-items: flex-end;
 }
 
 /* modal styles */
@@ -229,10 +236,6 @@ h3 {
     #go-button {
         font-size: 15px;
         padding: 5px 25px;
-    }
-
-    #stats {
-        flex-direction: column;
     }
 
     .modal-container div {

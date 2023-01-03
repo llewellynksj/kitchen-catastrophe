@@ -16,24 +16,28 @@
     <div class="border">
     <!-- Header -->
         <h1>Kitchen Catastrophe!</h1>
-        <h2>Help! We need you!</h2>
-        <h2>Can you help our kitchen team unscramble a whole bunch of food and drink words so they can create their menu?</h2>
+        <h2>Unscramble the words!</h2>
 
-        
-        <div class="container border">
-            <!-- Player information -->
-            <h3>Score: <span id="score"></span></h3>
-            <div id="stats">
-                <p>Level: <span id="level"></span></p>
-                <p>Attempts: <span id="attempts"></span></p>
+        <!-- Stats information -->
+        <div id="stats">
+            <div id="display-level">
+                <p>Level:<span id="level"></span></p>
             </div>
-
+            <div id="display-score">
+                <p>Score:<span id="score"></span></p>
+            </div>
+            <div id="display-attempts">
+                <p>Attempts:<span id="attempts"></span></p>
+            </div>
+        </div>
+        
+        <div class="container border">         
             <div>
                 <!-- Scrambled word -->
                 <p id="the-word"></p>
 
                 <!-- Clue -->
-                <p id="display-clue"><em>Clue: <span id="clue"></span></em></p>
+                <p id="display-clue"><em>Clue:<span id="clue"></span></em></p>
                 
                 <!-- Icons relating to the level category -->
                 <div id="icon-container">
