@@ -842,289 +842,293 @@ const levelTwoDrink = [
 const methods = [
     {
         word: "grilling",
-        clue: ""
+        clue: "Common form of cooking"
     },
     {
         word: "roasting",
-        clue: ""
+        clue: "Form of cooking popular on Sundays in the UK"
     },
     {
         word: "julienne",
-        clue: ""
+        clue: "Chopping an ingredient into matchsticks"
     },
     {
         word: "cerviche",
-        clue: ""
+        clue: "Cooking raw fish in lime juice"
     },
     {
         word: "poach",
-        clue: ""
+        clue: "Heating food in liquid"
     },
     {
         word: "braising",
-        clue: ""
+        clue: "Form of cooking"
     },
     {
         word: "barbecue",
-        clue: ""
+        clue: "Outdoor cooking popular in Australia"
     },
     {
         word: "emulsify",
-        clue: ""
+        clue: "Combining two ingredients"
     },
     {
         word: "smoking",
-        clue: ""
+        clue: "Cooking method that uses wood chips"
     },
     {
         word: "deglaze",
-        clue: ""
+        clue: "Cooking method that adds flavour"
     },
     {
         word: "baking",
-        clue: ""
+        clue: "Common form of cooking"
     },
     {
         word: "simmer",
-        clue: ""
+        clue: "Kept just below boiling"
     },
     {
         word: "stewing",
-        clue: ""
+        clue: "Long slow simmering"
     },
     {
         word: "steam",
-        clue: ""
+        clue: "Form of cooking using moist heat"
     },
     {
         word: "basting",
-        clue: ""
+        clue: "Using juices of food to add flavour"
     },
     {
         word: "brine",
-        clue: ""
+        clue: "Salted water"
     },
     {
         word: "confit",
-        clue: ""
+        clue: "Slow cooked in fat"
     },
     {
         word: "curing",
-        clue: ""
+        clue: "Food preservation technique"
     },
     {
         word: "frying",
-        clue: ""
+        clue: "Common form of cooking"
     },
     {
         word: "ferment",
-        clue: ""
+        clue: "Food preservation technique"
     },
     {
         word: "fillet",
-        clue: ""
+        clue: "Removing meat from the bone"
     },
     {
         word: "pickling",
-        clue: ""
+        clue: "Food preservation technique"
     },
     {
         word: "fondue",
-        clue: ""
+        clue: "Using hot liquid, typically cheese, to cook food"
     },
     {
         word: "frosting",
-        clue: ""
+        clue: "Added to sweet foods"
     },
     {
         word: "glazing",
-        clue: ""
+        clue: "Coating food"
     },
     {
         word: "hangi",
-        clue: ""
+        clue: "A New Zealand coooking method using heated rocks buried in a pit"
     },
     {
         word: "hibachi",
-        clue: ""
+        clue: "A form of Japanese cooking"
     },
     {
         word: "infusion",
-        clue: ""
+        clue: "Soaking a substance in liquid"
     },
     {
         word: "mincing",
-        clue: ""
+        clue: "Cutting food into very fine pieces"
     },
     {
         word: "puree",
-        clue: ""
+        clue: "Making solid food soft"
     },
     {
         word: "reducing",
-        clue: ""
+        clue: "thickening a liquid"
     },
     {
         word: "saute",
-        clue: ""
+        clue: "Dry-heat cooking method"
     },
     {
         word: "searing",
-        clue: ""
+        clue: "Using high heat to colour food quickly"
     },
     {
         word: "steeping",
-        clue: ""
+        clue: "Soaking a substance in liquid"
     },
     {
         word: "tandoor",
-        clue: ""
+        clue: "An Indian form of cooking in a clay oven"
     },
     {
         word: "zest",
-        clue: ""
+        clue: "Grating the outer skin of citrus fruit"
     },
 ]
 
 const tenLetters = [
     {
         word: "spatchcock",
-        clue: ""
+        clue: "Butterfly chicken"
     },
     {
         word: "maceration",
-        clue: ""
+        clue: "Method that softens food"
     },
     {
         word: "marination",
-        clue: ""
+        clue: "Soaking ingredients to flavour them"
     },
     {
         word: "parboiling",
-        clue: ""
+        clue: "Semi cooking in hot liquid"
     },
     {
         word: "chiffonade",
-        clue: ""
+        clue: "Slicing technique"
     },
     {
         word: "strawberry",
-        clue: ""
+        clue: "Fruit"
     },
     {
         word: "watermelon",
-        clue: ""
+        clue: "Fruit"
     },
     {
         word: "blackberry",
-        clue: ""
+        clue: "Fruit"
     },
     {
         word: "cantaloupe",
-        clue: ""
+        clue: "Fruit of the melon family"
     },
     {
         word: "cheesecake",
-        clue: ""
+        clue: "Dessert containing dairy"
     },
     {
         word: "elderberry",
-        clue: ""
+        clue: "Fruit often used to make wines and jellies"
     },
     {
         word: "grapefruit",
-        clue: ""
+        clue: "Fruit"
     },
     {
         word: "mayonnaise",
-        clue: ""
+        clue: "Condiment"
     },
     {
         word: "mozzarella",
-        clue: ""
+        clue: "Cheese"
     },
     {
         word: "sauerkraut",
-        clue: ""
+        clue: "Fermented cabbage"
     },
     {
         word: "watercress",
-        clue: ""
+        clue: "Plant vegetable often used in sauce"
     },
     {
         word: "tortellini",
-        clue: ""
+        clue: "Pasta"
     },
     {
         word: "vermicelli",
-        clue: ""
+        clue: "Similar to spaghetti"
     },
     {
         word: "fettuccini",
-        clue: ""
+        clue: "Pasta"
     },
     {
         word: "cannelloni",
-        clue: ""
+        clue: "Italian dish similar to lasagne"
     },
     {
         word: "sweetbread",
-        clue: ""
+        clue: "An acquired taste. Not to be confused with a dessert"
     },
     {
         word: "limoncello",
-        clue: ""
+        clue: "Italian liqueur"
     },
     {
         word: "buttermilk",
-        clue: ""
+        clue: "Dairy"
     },
     {
         word: "cappuccino",
-        clue: ""
+        clue: "Coffee"
     },
     {
         word: "manzanilla",
-        clue: ""
+        clue: "Sherry"
     },
     {
         word: "clementine",
-        clue: ""
+        clue: "Fruit"
     },
     {
         word: "redcurrant",
-        clue: ""
+        clue: "Fruit"
     },
     {
         word: "loganberry",
-        clue: ""
+        clue: "A cross between a raspberry and blackberry"
     },
     {
         word: "gooseberry",
-        clue: ""
+        clue: "A fruit that quacks"
     },
     {
         word: "breadfruit",
-        clue: ""
+        clue: "Uncooked toast fruit"
     },
     {
         word: "macadamias",
-        clue: ""
+        clue: "Nut"
     },
     {
         word: "gorgonzola",
-        clue: ""
+        clue: "Cheese"
     },
     {
         word: "peppermint",
-        clue: ""
+        clue: "Often used in tea or as an essential oil"
     },
     {
         word: "chardonnay",
-        clue: ""
+        clue: "Wine"
     },
     {
         word: "sangiovese",
-        clue: ""
+        clue: "Wine"
     },
+    {
+        word: "teppanyaki",
+        clue: "A form of Japanese cooking"
+    }
 ]
