@@ -1,6 +1,6 @@
 // variables
 const theWord = document.getElementById("the-word");
-const userAnswer = document.getElementById("user-answer");
+let rawUserAnswer = document.getElementById("user-answer");
 let randomWord;
 let correctAnswer;
 let answerCounter;
@@ -129,7 +129,8 @@ document.getElementById("user-answer").focus();
 /** Check the users answer against the correct word */
 function checkAnswer() {
     // Get the word that the user inputs
-    let inputAnswer = userAnswer.value.toLocaleLowerCase();
+    let userAnswer = rawUserAnswer.value.replace(/\s/g, "");
+    let inputAnswer = userAnswer.toLocaleLowerCase();
     correctAnswer = randomWord.word.toLowerCase();
 
     // Checks the users answer against the correct word and if correct then increases the score, if no answer then show error message, or if incorrect then check attempts
@@ -187,7 +188,7 @@ function displayStats() {
 
 /** Clear the user's answer from the answer box */
 function resetAnswerBox() {
-    userAnswer.value = "";
+    rawUserAnswer.value = "";
 }
 
 /** Event listeners for the check answer and new game buttons */
