@@ -98,12 +98,8 @@ a {
 
 li {
     max-width: 480px;
-    text-align: left;
-}
-
-#rules i {
     font-size: 15px;
-    padding: 0;
+    text-align: left;
 }
 
 #rules {
@@ -122,7 +118,7 @@ i {
 #go-button {
     width: 200px;
     font-size: 18px;
-    font-weight: lighter;
+    /* font-weight: lighter; */
     margin: 0;
 }
 
