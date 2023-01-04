@@ -37,12 +37,7 @@ h2 {
     max-width: 520px;
 }
 
-.chef-image {
-    height: 140px;
-    width: auto;
-    margin: 0;
-    padding: 0;
-}
+
 
 p {
     font-size: 15px;
@@ -96,6 +91,13 @@ a {
 }
 
 /* homepage styles */
+.chef-image {
+    height: 140px;
+    width: auto;
+    margin-bottom: 0;
+    padding: 0;
+}
+
 li {
     max-width: 480px;
     text-align: left;
