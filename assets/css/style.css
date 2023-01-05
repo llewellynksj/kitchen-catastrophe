@@ -272,6 +272,10 @@ i {
         max-width: 450px;
     }
 
+    .nav-bar {
+        margin-top: 5px;
+    }
+
     .link {
         margin: 5px 20px 5px 10px;
     }
