@@ -204,8 +204,7 @@ function loadButtons() {
     document.getElementById("user-answer").addEventListener("keydown", function(event) {
         if (event.key === "Enter") {
             checkAnswer();
-        }
-    })
+        }})
 }
 
 /** Displays the category icon dependent on the level */
