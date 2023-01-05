@@ -277,6 +277,10 @@ i {
         flex-direction: column;
     }
 
+    .chef-hat {
+        margin-top: 0;
+    }
+
     .link {
         margin: 5px 20px 5px 10px;
     }
