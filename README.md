@@ -244,7 +244,7 @@ Testing was performed across a range of devices, including:
 - HP Elitebook 840 GS (1920 x 1080)
 - HP Monitor (2560 x 1440)
 - Surface Pro 6 (1368 x 912)
-- iPhone 13 mini
+- Google Pixel 5
 
 ### **Function Testing**
 
