@@ -92,7 +92,6 @@ a {
     flex-direction: row;
     justify-content: center;
     margin: 0 10px;
-    overflow: hidden;
 }
 
 .chef-hat {
