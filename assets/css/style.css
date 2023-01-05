@@ -274,6 +274,7 @@ i {
 
     .nav-bar {
         margin-top: 5px;
+        flex-direction: column;
     }
 
     .link {
