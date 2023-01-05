@@ -1,6 +1,6 @@
 # Kitchen Catastrophe Word Game
 
-Mama & Cub is a simple to use website aimed at bringing together parents and their children in the Exeter area of South Devon, UK. The site is targeted towards mums who are looking for support from their peers and community. Mama & Cub strives to make information about locations, dates, and costs easy to find for tired parents with little time.
+Kitchen Catastrophe is a word game aimed at providing light entertainment while also serving to test and better user's knowledge of food and drink vocabulary.
 
 ![Image of the Kitchen Catastrophe website on a varitey of devices with differing screen sizes]()
 
