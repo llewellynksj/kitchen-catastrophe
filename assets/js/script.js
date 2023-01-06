@@ -105,15 +105,15 @@ function checkLevel() {
 if (level === 1) {
     getWord(levelOneFood);
 } else if (level === 2) {
-    getWord(levelOneDrink);
-} else if (level === 3) {
-    getWord(levelTwoFood);
-} else if (level === 4) {
     getWord(levelTwoDrink);
+} else if (level === 3) {
+    getWord(levelThreeFood);
+} else if (level === 4) {
+    getWord(levelFourDrink);
 } else if (level === 5) {
-    getWord(methods);
+    getWord(levelFiveMethods);
 } else if (level === 6) {
-    getWord(tenLetters);
+    getWord(levelSixTenLetters);
 } else if (level === 7) {
     checkWinner();
 }
@@ -128,7 +128,7 @@ document.getElementById("user-answer").focus();
 
 /** Check the users answer against the correct word */
 function checkAnswer() {
-    // Get the word that the user inputs
+    // Get the word that the user inputs - implement regex to remove space characters and convert string to lowercase
     let userAnswer = rawUserAnswer.value.replace(/\s/g, "");
     let inputAnswer = userAnswer.toLocaleLowerCase();
     correctAnswer = randomWord.word.toLowerCase();

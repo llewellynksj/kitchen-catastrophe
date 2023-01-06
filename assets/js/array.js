@@ -1,3 +1,4 @@
+// Level 1 array FOOD
 const levelOneFood = [
     {
         word: "corn",
@@ -262,7 +263,152 @@ const levelOneFood = [
     }
 ]
 
-const levelTwoFood = [
+// Level 2 array DRINK
+const levelTwoDrink = [
+    {
+        word: "wine",
+        clue: "Made with grapes"
+    },
+    {
+        word: "beer",
+        clue: "Made with hops"
+    },
+    {
+        word: "soda",
+        clue: "A general name for fizzy softdrinks"
+    },
+    {
+        word: "milk",
+        clue: "Dairy"
+    },
+    {
+        word: "juice",
+        clue: "Some variations include apple, orange and pineapple"
+    },
+    {
+        word: "cider",
+        clue: "Made with apples"
+    },
+    {
+        word: "sake",
+        clue: "A popular Japanese drink"
+    },
+    {
+        word: "vodka",
+        clue: "Spirit"
+    },
+    {
+        word: "water",
+        clue: "Arguably the most important substance on Earth"
+    },
+    {
+        word: "syrah",
+        clue: "Wine"
+    },
+    {
+        word: "pinot",
+        clue: "Wine"
+    },
+    {
+        word: "cola",
+        clue: "A popular fizzy drink"
+    },
+    {
+        word: "port",
+        clue: "Fortified wine"
+    },
+    {
+        word: "hock",
+        clue: "Wine"
+    },
+    {
+        word: "mead",
+        clue: "Made from honey"
+    },
+    {
+        word: "ouzo",
+        clue: "Spirit"
+    },
+    {
+        word: "rose",
+        clue: "Wine"
+    },
+    {
+        word: "pepsi",
+        clue: "A popular brand of fizzy drink"
+    },
+    {
+        word: "decaf",
+        clue: "Coffee"
+    },
+    {
+        word: "hooch",
+        clue: "A nickname for alcohol of inferior quality"
+    },
+    {
+        word: "broth",
+       clue: "Both a food and a drink"
+    },
+    {
+        word: "lager",
+        clue: "Sterotypically popular amoung football fans"
+    },
+    {
+        word: "perry",
+        clue: "Cider"
+    },
+    {
+        word: "tonic",
+        clue: "A mixer"
+    },
+    {
+        word: "tokay",
+        clue: "Hungarian Wine"
+    },
+    {
+        word: "stout",
+        clue: "Beer"
+    },
+    {
+        word: "rioja",
+        clue: "Wine"
+    },
+    {
+        word: "punch",
+        clue: "A popular drink in the Caribbean Islands often made with rum"
+    },
+    {
+        word: "pimms",
+        clue: "An official sponsor of Wimbledon"
+    },
+    {
+        word: "mocha",
+        clue: "Coffee"
+    },
+    {
+        word: "latte",
+        clue: "Coffee"
+    },
+    {
+        word: "lassi",
+        clue: "South Asian drink"
+    },
+    {
+        word: "chai",
+        clue: "Indian tea"
+    },
+    {
+        word: "fizz",
+        clue: "A nickname for sparkling wine"
+    },
+    {
+        word: "brew",
+        clue: "A nickname for beer typically made at home"
+    }
+]
+
+// Level 3 array FOOD
+const levelThreeFood = [
     {
         word: "garlic",
         clue: "Vegetable"
@@ -521,150 +667,8 @@ const levelTwoFood = [
     }
     ]
 
-const levelOneDrink = [
-    {
-        word: "wine",
-        clue: "Made with grapes"
-    },
-    {
-        word: "beer",
-        clue: "Made with hops"
-    },
-    {
-        word: "soda",
-        clue: "A general name for fizzy softdrinks"
-    },
-    {
-        word: "milk",
-        clue: "Dairy"
-    },
-    {
-        word: "juice",
-        clue: "Some variations include apple, orange and pineapple"
-    },
-    {
-        word: "cider",
-        clue: "Made with apples"
-    },
-    {
-        word: "sake",
-        clue: "A popular Japanese drink"
-    },
-    {
-        word: "vodka",
-        clue: "Spirit"
-    },
-    {
-        word: "water",
-        clue: "Arguably the most important substance on Earth"
-    },
-    {
-        word: "syrah",
-        clue: "Wine"
-    },
-    {
-        word: "pinot",
-        clue: "Wine"
-    },
-    {
-        word: "cola",
-        clue: "A popular fizzy drink"
-    },
-    {
-        word: "port",
-        clue: "Fortified wine"
-    },
-    {
-        word: "hock",
-        clue: "Wine"
-    },
-    {
-        word: "mead",
-        clue: "Made from honey"
-    },
-    {
-        word: "ouzo",
-        clue: "Spirit"
-    },
-    {
-        word: "rose",
-        clue: "Wine"
-    },
-    {
-        word: "pepsi",
-        clue: "A popular brand of fizzy drink"
-    },
-    {
-        word: "decaf",
-        clue: "Coffee"
-    },
-    {
-        word: "hooch",
-        clue: "A nickname for alcohol of inferior quality"
-    },
-    {
-        word: "broth",
-       clue: "Both a food and a drink"
-    },
-    {
-        word: "lager",
-        clue: "Sterotypically popular amoung football fans"
-    },
-    {
-        word: "perry",
-        clue: "Cider"
-    },
-    {
-        word: "tonic",
-        clue: "A mixer"
-    },
-    {
-        word: "tokay",
-        clue: "Hungarian Wine"
-    },
-    {
-        word: "stout",
-        clue: "Beer"
-    },
-    {
-        word: "rioja",
-        clue: "Wine"
-    },
-    {
-        word: "punch",
-        clue: "A popular drink in the Caribbean Islands often made with rum"
-    },
-    {
-        word: "pimms",
-        clue: "An official sponsor of Wimbledon"
-    },
-    {
-        word: "mocha",
-        clue: "Coffee"
-    },
-    {
-        word: "latte",
-        clue: "Coffee"
-    },
-    {
-        word: "lassi",
-        clue: "South Asian drink"
-    },
-    {
-        word: "chai",
-        clue: "Indian tea"
-    },
-    {
-        word: "fizz",
-        clue: "A nickname for sparkling wine"
-    },
-    {
-        word: "brew",
-        clue: "A nickname for beer typically made at home"
-    }
-]
-
-const levelTwoDrink = [
+// Level 4 array DRINK
+const levelFourDrink = [
     {
         word: "coffee",
         clue: "Hot drink"
@@ -839,7 +843,8 @@ const levelTwoDrink = [
     }
 ]
 
-const methods = [
+// Level 5 array METHODS
+const levelFiveMethods = [
     {
         word: "grilling",
         clue: "Common form of cooking"
@@ -986,7 +991,8 @@ const methods = [
     }
 ]
 
-const tenLetters = [
+// Level 6 array TEN LETTERS
+const levelSixTenLetters = [
     {
         word: "spatchcock",
         clue: "Butterfly chicken"

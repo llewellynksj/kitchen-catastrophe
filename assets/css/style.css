@@ -1,14 +1,14 @@
-/* google fonts import link */
+/********** Google fonts import link **********/
 @import url('https://fonts.googleapis.com/css2?family=Andika&family=Permanent+Marker&display=swap');
 
-/* remove default styles */
+/********** Remove default styles **********/
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-/* base styles */
+/********** Base styles **********/
 * {
     font-family: Andika, sans-serif;
     text-align: center;
@@ -87,7 +87,7 @@ a {
     cursor: pointer;
 }
 
-/* homepage styles */
+/********** Nav bar & logo **********/
 .nav-bar {
     flex-direction: row;
     justify-content: center;
@@ -110,6 +110,7 @@ a {
     font-weight: 600;
 }
 
+/********** Homepage styles **********/
 .chef-image {
     height: 140px;
     width: auto;
@@ -144,7 +145,7 @@ i {
     font-weight: 600;
 }
 
-/* game page styles */
+/********** Game page styles **********/
 .flex-container {
     display: flex;
     margin: 0 auto;
@@ -214,7 +215,7 @@ i {
     width: 130px;
 }
 
-/* modal styles */
+/********** Modal styles **********/
 .modal-container {
     display: none;
     position: fixed;
@@ -242,10 +243,6 @@ i {
     height: 135px;
 }
 
-.modal-content p {
-    padding-bottom: 50px;
-}
-
 .modal-content a {
     appearance: button;
 }
@@ -265,7 +262,7 @@ i {
     cursor: pointer;
 }
 
-/* smaller screen styles */
+/********** Smaller screen styles **********/
 @media only screen and (max-width: 475px) {
     li {
         max-width: 450px;
