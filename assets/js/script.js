@@ -1,4 +1,4 @@
-// variables
+// Variables
 const theWord = document.getElementById("the-word");
 let rawUserAnswer = document.getElementById("user-answer");
 let randomWord;
@@ -8,15 +8,15 @@ let score;
 let attempts;
 let level;
 
-// modal variables
+// MODAL Variables
 const winModal = document.getElementById("win-modal");
 const lostModal = document.getElementById("lost-modal");
 const correctModal = document.getElementById("correct-modal");
 const incorrectModal = document.getElementById("incorrect-modal");
 const noAnswerModal = document.getElementById("no-answer-modal");
-const closeButton = document.getElementsByClassName("close")[0];
+const closeButton = document.getElementsByClassName("modal-button")[0];
 
-// modal display functions
+// MODAL display functions
 function displayWinModal() {
     winModal.style.display = "block";
     winModal.addEventListener("click", closeModalNewGame)
@@ -29,7 +29,7 @@ function displayLostModal() {
 
 function displayCorrectModal() {
     correctModal.style.display = "block";
-    correctModal.addEventListener("click", closeCorrectModal)
+    correctModal.addEventListener("click", closeCorrectModal);
 }
 
 function displayIncorrectModal() {
@@ -42,11 +42,11 @@ function displayNoAnswerModal() {
     noAnswerModal.addEventListener("click", closeModalContinue)
 }
 
-// modal close functions
+// MODAL close functions
 function closeModalNewGame() {
-    startGame();
     winModal.style.display = "none";
     lostModal.style.display = "none";
+    startGame();
 }
 
 function closeCorrectModal() {
@@ -59,7 +59,6 @@ function closeModalContinue() {
     correctModal.style.display = "none";
     incorrectModal.style.display = "none";
     noAnswerModal.style.display = "none";
-    document.getElementById("user-answer").focus();
 }
 
 /** Starts the game
@@ -97,7 +96,6 @@ function jumbleLetters(randomWord) {
     }
     
     return letterMix.join("");
-
 }
 
 /** Check which level the user is at and run the getWord function to draw a word from the appropriate array by passing the array name as a parameter */

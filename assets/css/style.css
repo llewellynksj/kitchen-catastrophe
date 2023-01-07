@@ -65,15 +65,16 @@ a {
 }
 
 .border {
+    max-width: 480px;
     border: 1px solid #252525;
-    border-radius: 5px;
+    border-radius: 35px;
     padding: 0 5px 10px 5px;
     margin: 0 5px 10px 5px;
     position: relative;
 }
 
 .buttons a, .buttons button {
-    background-color: #90CE67;
+    background-color: #FFAD3A;
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -82,8 +83,8 @@ a {
 }
 
 .buttons a:hover, .buttons button:hover {
-    color: #90CE67;
-    background-color: #252525;
+    color: #252525;
+    background-color: #FFCF8C;
     cursor: pointer;
 }
 
@@ -102,7 +103,7 @@ a {
 
 .link {
     background-color: white;
-    border: 2px solid #252525;
+    border: 2px solid #FFAD3A;
     border-radius: 10px;
     padding: 8px 15px;
     font-size: 12px;
@@ -110,7 +111,33 @@ a {
     font-weight: 600;
 }
 
-/********** Homepage styles **********/
+#homepage {
+    
+}
+
+#gamepage {
+
+
+}
+/* Homepage styles */
+.confused-chef {
+    height: 280px;
+    width: auto;
+}
+
+.start-container {
+    border-radius: 20px;
+}
+
+.go-button {
+    min-width: 200px;
+    font-size: 18px;
+    margin: 0;
+    padding: 8px 8px;
+    font-weight: 600;
+}
+
+/********** Rules page styles **********/
 .chef-image {
     height: 140px;
     width: auto;
@@ -131,18 +158,6 @@ li {
 i {
     font-size: 25px;
     padding: 10px 5px 5px 5px;
-}
-
-#start-container {
-    border-radius: 20px;
-}
-
-#go-button {
-    width: 200px;
-    font-size: 18px;
-    margin: 0;
-    padding: 8px 8px;
-    font-weight: 600;
 }
 
 /********** Game page styles **********/
@@ -174,6 +189,11 @@ i {
     padding: 2px 0 2px 8px;
 }
 
+#game-board {
+    border-radius: 35px;
+    height: 600px;
+}
+
 #icon-container {
     margin: 0;
 }
@@ -196,18 +216,18 @@ i {
     font-size: 25px;
 }
 
-#display-clue {
-    font-size: 15px;
-    padding: 0;
-    margin: 0 auto;
-}
-
 #user-answer {
     min-width: 300px;
     height: 50px;
     text-transform: uppercase;
     border: 1px solid #8e8e8e;
     letter-spacing: 2px;
+}
+
+#display-clue {
+    font-size: 15px;
+    padding: 0;
+    margin: 0 auto;
 }
 
 #back-home {
@@ -263,7 +283,7 @@ i {
 }
 
 /********** Smaller screen styles **********/
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 480px) {
     li {
         max-width: 450px;
     }
@@ -281,6 +301,10 @@ i {
         margin: 5px 20px 5px 10px;
     }
 
+    .confused-chef {
+        height: 200px;
+    }
+
     .chef-image {
         height: 120px;
     }
@@ -292,11 +316,12 @@ i {
     #user-answer {
         min-width: 100px;
     }
-    #start-container {
+
+    .start-container {
         margin-top: 10px;
     }
 
-    #go-button {
+    .go-button {
         font-size: 15px;
         padding: 8px 8px;
     }
