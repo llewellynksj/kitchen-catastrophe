@@ -191,7 +191,8 @@ i {
 
 #game-board {
     border-radius: 35px;
-    height: 600px;
+    height: auto;
+    width: 460px;
 }
 
 #icon-container {
@@ -307,6 +308,11 @@ i {
 
     .chef-image {
         height: 120px;
+    }
+
+    #game-board {
+        width: auto;
+        min-width: 260px;
     }
 
     #stats {
