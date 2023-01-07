@@ -193,20 +193,20 @@ i {
 }
 
 #display-level p {
-    background-color: #BEE2A6;
+    background-color: #FFC87C;
     border-radius: 10px;
     padding: 2px 2px 2px 8px;
 }
 
 #display-score p {
-    background-color: #BEE2A6;
+    background-color: #FFC87C;
     border-radius: 10px;
     padding: 2px 2px 2px 8px;
     font-weight: bold;
 }
 
 #display-attempts p {
-    background-color: #BEE2A6;
+    background-color: #FFC87C;
     border-radius: 10px;
     padding: 2px 0 2px 8px;
 }
@@ -246,6 +246,74 @@ i {
     border: 1px solid #8e8e8e;
     letter-spacing: 2px;
 }
+
+/* Clue toggle switch ***********************************************/
+.switch-clue * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.switch-clue {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.switch-text {
+    position: absolute;
+    top: -25px;
+    left: 15px;
+    width: 100px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.switch-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Toggle slider that contains the circle switch */
+.switch-container .switch-toggle {
+    position: absolute;
+    top: 0;
+    left: 110px;
+    width: 40px;
+    height: 20px;
+    background-color: #BEE2A6;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+/* Inner circle switch */
+.switch-container .switch-toggle #switch-circle {
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.switch-container .switch-toggle.active {
+    background: black;
+}
+
+.switch-container .switch-toggle.active #switch-circle {
+    left: 20px;
+}
+
+
+/* ************************************************************* */
 
 #display-clue {
     font-size: 15px;

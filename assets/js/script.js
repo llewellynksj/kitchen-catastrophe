@@ -1,6 +1,10 @@
 // Variables
 const theWord = document.getElementById("the-word");
-let rawUserAnswer = document.getElementById("user-answer");
+const rawUserAnswer = document.getElementById("user-answer");
+const clueToggle = document.querySelector(".switch-toggle");
+const theClue = document.getElementById("clue");
+const clueParagraph = document.getElementById("display-clue");
+
 let randomWord;
 let correctAnswer;
 let answerCounter;
@@ -118,7 +122,6 @@ if (level === 1) {
 
 theWord.innerHTML = jumbleLetters(randomWord);
 
-let theClue = document.getElementById("clue");
 theClue.innerHTML = randomWord.clue;
 
 document.getElementById("user-answer").focus();
@@ -197,6 +200,9 @@ function loadButtons() {
     let checkAnswerButton = document.getElementById("check-answer");
     checkAnswerButton.addEventListener("click", checkAnswer)
 
+    let clueCircleSwitch = document.getElementById("switch-circle");
+    clueCircleSwitch.addEventListener("click", moveToggle)
+
     // Enable user to press enter to check answer
     // code taken from Code Institute Love Maths project walkthrough: https://bit.ly/3Z9GuUs
     document.getElementById("user-answer").addEventListener("keydown", function(event) {
@@ -204,6 +210,17 @@ function loadButtons() {
             checkAnswer();
         }})
 }
+
+function moveToggle() {
+    clueToggle.classList.toggle("active");
+
+    if (clueToggle.classList.contains("active")) {
+        clueParagraph.style.display = "none";
+    } else {
+        clueParagraph.style.display = "block";
+    }
+}
+
 
 /** Displays the category icon dependent on the level */
 function displayIcon() {
@@ -236,5 +253,7 @@ function displayIcon() {
         tenCategory.style.display = "none";
     }
 }
+
+
 
 startGame();
