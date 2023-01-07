@@ -56,12 +56,12 @@ a {
     margin: 10px; 
 }
 
-.border {
-    background-color: white;
-}
-
 .container * {
     margin: 10px;
+}
+
+.border {
+    background-color: white;
 }
 
 .border {
@@ -73,18 +73,25 @@ a {
     position: relative;
 }
 
+/* Shadow on main container across all pages, code adapted from https://neumorphism.io/#ffffff */
+.shadow {
+    border-radius: 35px;
+    background: linear-gradient(225deg, #ffffff, #EFEFEF);
+    box-shadow:  -5px 8px 28px #666666, 5px 2px 28px #ffffff;
+}
+
 .buttons a, .buttons button {
     background-color: #FFAD3A;
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     width: 150px;
 }
 
 .buttons a:hover, .buttons button:hover {
     color: #252525;
-    background-color: #FFCF8C;
+    background-color: #FFEBCE;
     cursor: pointer;
 }
 
@@ -128,6 +135,7 @@ a {
 .confused-chef {
     height: 280px;
     width: auto;
+    border-radius: 35px;
 }
 
 .start-container {
@@ -139,7 +147,7 @@ a {
     font-size: 18px;
     margin: 0;
     padding: 8px 8px;
-    font-weight: 600;
+    font-weight: 550;
 }
 
 /********** Rules page styles **********/
