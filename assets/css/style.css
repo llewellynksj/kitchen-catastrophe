@@ -241,6 +241,7 @@ i {
 }
 
 /********** Clue toggle switch  **********/
+/* Code adapted from Coding Power tutorial: https://www.youtube.com/watch?v=R6ODcr-MwKE */
 .switch-clue * {
     margin: 0;
     padding: 0;

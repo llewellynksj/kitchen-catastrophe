@@ -124,12 +124,11 @@ if (level === 1) {
 theWord.innerHTML = jumbleLetters(randomWord);
 // Pulls the clue from the correct object to match the word
 theClue.innerHTML = randomWord.clue;
-// Refocusses on the user answer box
-document.getElementById("user-answer").focus();
 }
 
 /** Check the users answer against the correct word */
 function checkAnswer() {
+    // trapFocus();
     // Get the word that the user inputs - implement regex to remove space characters and convert string to lowercase
     let userAnswer = rawUserAnswer.value.replace(/\s/g, "");
     let inputAnswer = userAnswer.toLocaleLowerCase();
@@ -255,4 +254,37 @@ function displayIcon() {
     }
 }
 
+// function trapFocus(e) {
+//     let focusableElString = "a[href], input:not([disabled]), button:not([disabled])";
+//     let focusableElements = correctModal.querySelectorAll(focusableElString);
+
+//     focusableElements - Array.prototype.slice.call(focusableElements);
+
+//     let firstTabStop = focusableElements[0];
+//     let lastTabStop = focusableElements[focusableElements.length - 1];
+
+//     firstTabStop.focus();
+
+//     if (e.key = "Tab") {
+//         if (e.shiftKey) {
+//             if (document.activeElement === firstTabStop) {
+//                 e.preventDefault();
+//                 lastTabStop.focus();
+//             }
+//         } else {
+//             if (document.activeElement === lastTabStop) {
+//                 e.preventDefault();
+//                 firstTabStop();
+//             }
+//         }
+//     }
+
+//     if (e.key = "Escape") {
+//         closeCorrectModal();
+//     }
+// }
+
 startGame();
+
+
+
