@@ -294,8 +294,8 @@ i {
 /* Inner circle switch */
 .switch-container .switch-toggle #switch-circle {
     position: absolute;
-    top: 2.5px;
-    left: 2.5px;
+    top: 2.25px;
+    left: 2.25px;
     width: 15px;
     height: 15px;
     background: white;
@@ -309,7 +309,7 @@ i {
 }
 
 .switch-container .switch-toggle.active #switch-circle {
-    left: 20px;
+    left: 21px;
 }
 
 
@@ -415,6 +415,14 @@ i {
     
     #user-answer {
         min-width: 100px;
+    }
+
+    .switch-text {
+        left: -45px;
+    }
+
+    .switch-container .switch-toggle {
+        left: 50px;
     }
 
     .start-container {
