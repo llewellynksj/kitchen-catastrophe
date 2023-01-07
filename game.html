@@ -20,7 +20,9 @@
 <body>
     <!-- Nav bar & logo -->
     <nav class="container nav-bar">
+        <!-- Logo image -->
         <a href="index.html"><img class="chef-hat" src="assets/images/chefhat.png" alt="black outline of chefs hat"></a>
+        <!-- Navigation links -->
         <div class="nav-bar">
             <a class="link" href="index.html">Home</a>
             <a class="link" href="rules.html">How to Play</a>
@@ -30,18 +32,21 @@
 
     <div class="container" id="main-container">
         <div class="border shadow" id="game-board">
-        <!-- Header -->
+        <!-- Title -->
             <h1>Kitchen Catastrophe!</h1>
             <h2>Unscramble the words!</h2>
 
             <!-- Stats information -->
             <div class="flex-container">
+                <!-- Level -->
                 <div id="display-level">
                     <p>Level:<span id="level"></span></p>
                 </div>
+                <!-- Score -->
                 <div id="display-score">
                     <p>Score:<span id="score"></span></p>
                 </div>
+                <!-- Attempts -->
                 <div id="display-attempts">
                     <p>Tries:<span id="attempts"></span></p>
                 </div>
@@ -99,6 +104,7 @@
 
     <!-- Modals -->
     <div>
+        <!-- Win modal -->
         <div class="modal-container" id="win-modal">
             <div class="modal-content">
                 <p>Congratulations <br> You win!<i class="fa-duotone fa-trophy-star"></i></p>
@@ -106,7 +112,7 @@
                 <a class="modal-button" href="index.html">Home</a> 
             </div>
         </div>
-
+        <!-- Lost modal -->
         <div class="modal-container" id="lost-modal">
             <div class="modal-content">
                 <p>You're all out of tries!</p>
@@ -114,21 +120,21 @@
                 <a class="modal-button" href="index.html">Home</a>        
             </div>
         </div>
-
+        <!-- Correcty answer modal -->
         <div class="modal-container" id="correct-modal">
             <div class="modal-content">
                 <p>Correct!<br> Keep going!</p>
                 <button class="modal-button" onclick="closeCorrectModal()">Close</button>
             </div>
         </div>
-
+        <!-- Incorrect answer modal -->
         <div class="modal-container" id="incorrect-modal">
             <div class="modal-content">
                 <p>Erm, that's wrong <br> Try again!</p>
                 <button class="modal-button" onclick="closeModalContinue()">Close</button>
             </div>
         </div>
-
+        <!-- No answer input modal -->
         <div class="modal-container" id="no-answer-modal">
             <div class="modal-content">
                 <p>Oops! You've forgotten to enter a guess!<br>Try again</p>

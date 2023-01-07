@@ -34,7 +34,6 @@ h2 {
     font-weight: lighter;
     font-size: 18px;
     padding-bottom: 5px;
-    max-width: 520px;
 }
 
 p {
@@ -85,7 +84,6 @@ a {
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
-    /* font-weight: bold; */
     width: 150px;
 }
 
@@ -183,6 +181,12 @@ i {
     margin-top: 0;
 }
 
+#game-board {
+    border-radius: 35px;
+    height: auto;
+    width: 460px;
+}
+
 .flex-container {
     display: flex;
     margin: 0 auto;
@@ -192,29 +196,18 @@ i {
     margin: 0 auto;
 }
 
-#display-level p {
+#display-level p, #display-score p, #display-attempts p {
     background-color: #FFC87C;
     border-radius: 10px;
     padding: 2px 2px 2px 8px;
 }
 
 #display-score p {
-    background-color: #FFC87C;
-    border-radius: 10px;
-    padding: 2px 2px 2px 8px;
     font-weight: bold;
 }
 
 #display-attempts p {
-    background-color: #FFC87C;
-    border-radius: 10px;
-    padding: 2px 0 2px 8px;
-}
-
-#game-board {
-    border-radius: 35px;
-    height: auto;
-    width: 460px;
+    padding-right: 0;
 }
 
 #icon-container {
@@ -247,7 +240,7 @@ i {
     letter-spacing: 2px;
 }
 
-/* Clue toggle switch ***********************************************/
+/********** Clue toggle switch  **********/
 .switch-clue * {
     margin: 0;
     padding: 0;
@@ -311,9 +304,6 @@ i {
 .switch-container .switch-toggle.active #switch-circle {
     left: 21px;
 }
-
-
-/* ************************************************************* */
 
 #display-clue {
     font-size: 15px;
@@ -379,10 +369,6 @@ i {
 
 /********** Smaller screen styles **********/
 @media only screen and (max-width: 480px) {
-    li {
-        max-width: 450px;
-    }
-
     .nav-bar {
         margin-top: 5px;
         flex-direction: column;
@@ -395,24 +381,36 @@ i {
     .link {
         margin: 5px 20px 5px 10px;
     }
-
+    
+    /* homepage */
     .confused-chef {
         height: 200px;
     }
 
+    .go-button {
+        font-size: 15px;
+        padding: 8px 8px;
+    }
+
+    /* rules page */
     .chef-image {
         height: 120px;
     }
 
+    li {
+        max-width: 450px;
+    }
+
+    /* game page */
     #game-board {
         width: auto;
         min-width: 260px;
     }
-
-    #stats {
-    flex-wrap: wrap;
-    }
     
+    #the-word {
+        letter-spacing: 5px;
+    }
+
     #user-answer {
         min-width: 100px;
     }
@@ -429,24 +427,18 @@ i {
         margin-top: 10px;
     }
 
-    .go-button {
-        font-size: 15px;
-        padding: 8px 8px;
+    #end-buttons * {
+        margin: 0 30px 30px 30px;
     }
 
+    /* modals */
     .modal-container div {
         width: auto;
         height: auto;
     }
-
-    #the-word {
-        letter-spacing: 5px;
-    }
-
-    #end-buttons * {
-        margin: 0 30px 30px 30px;
-    }
 }
+
+    
 
 
 
