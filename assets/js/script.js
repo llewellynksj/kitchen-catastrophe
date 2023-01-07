@@ -120,10 +120,11 @@ if (level === 1) {
     checkWinner();
 }
 
+// Sets the scrambled word to the random word with jumbled letters
 theWord.innerHTML = jumbleLetters(randomWord);
-
+// Pulls the clue from the correct object to match the word
 theClue.innerHTML = randomWord.clue;
-
+// Refocusses on the user answer box
 document.getElementById("user-answer").focus();
 }
 
@@ -253,7 +254,5 @@ function displayIcon() {
         tenCategory.style.display = "none";
     }
 }
-
-
 
 startGame();
