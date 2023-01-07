@@ -253,6 +253,10 @@ i {
     margin: 0 auto;
 }
 
+#check-answer {
+    font-weight: 600;
+}
+
 #back-home {
     height: 21px;
     width: 130px;
