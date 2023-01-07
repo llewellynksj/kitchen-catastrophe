@@ -119,6 +119,11 @@ a {
     font-weight: 600;
 }
 
+.link:hover {
+    background-color: #FFEBCE;
+    cursor: pointer;
+}
+
 #homepage {
     background-color: #FFEBCE;
 }
