@@ -4,7 +4,7 @@ Kitchen Catastrophe is a word game aimed at providing light entertainment while 
 
 ![Image of the Kitchen Catastrophe website on a varitey of devices with differing screen sizes]()
 
-[Visit the Kitchen Catastrophe live website here](https://llewellynksj.github.io/https://llewellynksj.github.io/kitchen-catastrophe/)
+[Visit the Kitchen Catastrophe live website here](https://llewellynksj.github.io/kitchen-catastrophe)
 
 <br>
 
