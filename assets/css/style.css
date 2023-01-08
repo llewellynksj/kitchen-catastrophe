@@ -358,10 +358,6 @@ i {
     height: 135px;
 }
 
-.modal-content a {
-    appearance: button;
-}
-
 .modal-button {
     color: #252525;
     font-size: 15px;
