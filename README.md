@@ -165,7 +165,8 @@ The website has 2 main pages accessible to the user which; the homepage where th
 
 ### Game Page
 Clue Hint
-[![Image from Gyazo](https://i.gyazo.com/41043052dc6f8ae8130f35ba6417839a.gif)](https://gyazo.com/41043052dc6f8ae8130f35ba6417839a)
+
+[![Image from Gyazo](https://i.gyazo.com/2026981a7b64fe95f4e232a4ec82f375.gif)](https://gyazo.com/2026981a7b64fe95f4e232a4ec82f375)
 
 <br>
 
