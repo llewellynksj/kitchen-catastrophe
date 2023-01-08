@@ -236,23 +236,31 @@ Dependent on what the user has input for their answer, when the Check Answer but
  - Advises user they have won the game
  - Advises user they have lost the game
 
+![Example of a modal on Kitchen Catastrophe](documentation/readme-images/modal-example.png)
+
 <br>
 
 ### **Accessibility**
 I have taken the following steps in order to ensure my site is as accessible as possible:
-- Clear and simple font styling, avoiding any cursive or calligraphic scripts.
-- Colours: 
-- Addition of quick links in the navigation bar
-- Use of semantic HTML
+- Clear and simple font styling, avoiding any cursive or calligraphic scripts for the majority of the text.
+- Using complimentary colours
+- As the background image is quite busy it was important to ensure my game board (and other information such as rules) were clearly seperated on a section with a white background.
+- Addition of quick links in the navigation bar.
+- Use of semantic HTML.
 - Ensuring all images have an alt description for screen readers or where the image cannot be loaded. Also ensuring that these are as descriptive as possible.
+- Ensuring the return button can be used to check the answer in the game, and that the modal can be closed by using the tab button on the keyboard to reach the close button. Also focus returns to the user answer box after the modal closes.
 
 <br>
 
 ### **Future Features**
 In the future there are features and developments I would like to consider adding to create an even better user experience of this website. They include:
 
-- 
-- 
+- Have different scoring systems for playing with/without the clue 
+- Track high scores and display these on a high scores page
+- Music with an on/off toggle
+- Different levels of difficulty that the user can chose to play
+- Using an API to pull a much larger number of words into the array
+- I struggled to trap the focus in the modal and return it to the correct place on the game page in all scenarios. This does now work in testing but I would like it work more seamlessly. I would like the user to simply be able to use the Enter button to dismiss the modal.
 
 <br>
 
@@ -270,12 +278,15 @@ This website has been written in HTML, CSS and JavaScript.
 - Font Awesome: For icons used throughout the site
 - Google Fonts: To import the fonts used throughout the site
 - Coolors: Colour palette picking website used to choose my colour scheme
-- [Shutterstock]() Stock images
+- Shutterstock: Stock images
 - Google DevTools: Used throughout the site's creation to test responsiveness and tweak layout
+- Apple Safari Web Inspector: Used throughout to test responsiveness on iOS operating systems
 - Balsamiq: Wireframe software
 - Favicon.io: To create favicon
 - Am I Responsive: To create a visual of the website across different device sizes
-- [BIRME](https://www.birme.net/?) To resize images
+- [BIRME](https://www.birme.net/?) To resize images and convert to webp
+- [Tiny PNG](https://tinypng.com/) To compress images
+- [Gyazo](https://gyazo.com/) To create GIFs to use in the README
 
 <br>
 
@@ -283,8 +294,6 @@ This website has been written in HTML, CSS and JavaScript.
 
 ## Version Control
 Version control has been maintained using Git. The code written for this website has been updated via regular commits to Github. These serve as a record of development and changes to the varying pages of html and css.
-
-My commit history can be viewed [here]()
 
 <br>
 
@@ -294,18 +303,29 @@ My commit history can be viewed [here]()
 Github was used to deploy the website. The steps below were followed in order to achieve this:
 
 1. Log in to Github account
-2. Navigate to the project repository
+2. Navigate to the project repository [here](https://github.com/llewellynksj/kitchen-catastrophe)
 3. Click the 'Settings' button near the top of the page
 4. Click the 'Pages' button from the left-hand menu
 5. The 'Source' box should state 'Deploy from a branch'
 6. Under the 'Branch' box click to select 'main'
-
-![Screenshot of step 6](documentation/readme-images/github-pages.webp)
-
 7. Click 'Save'
 8. It may take a few minutes to refresh but you will then be able to see the project has been made live
 
-![Screenshot of step 8 showing the live link to the project on Github Pages](documentation/readme-images/github-pages-live.webp)
+<br>
+
+## How to Fork
+1. Log in to Github account
+2. Navigate to the project repository [here](https://github.com/llewellynksj/kitchen-catastrophe)
+3. Click on the 'Fork' button in the top right corner of the page
+
+## How to Clone
+1. Log in to Github account
+2. Navigate to the project repository [here](https://github.com/llewellynksj/kitchen-catastrophe)
+3. Click on the green 'Code' button which will open a drop down menu
+4. Copy the clone link you require (e.g. HTTPS/SSH)
+5. In your code editor change the working directory to the location where you want the clone
+6. Type 'git clone' and paste in the link
+
 <br>
 
 ----
@@ -341,24 +361,26 @@ Testing was performed across a range of devices, including:
 
 | First Time Visitor Goal | Solution | Tested & Successfully Completed |
 | :----| :---| :----------------------:|
-|  |  | Yes |
-|   |  | Yes |
-|  |  | Yes |
-|   |  | Yes |
+| I want to play an engaging word game |  | Yes |
+| I want to test my food and drink knowledge  |  | Yes |
+| I want to be able to play on any of my devices |  | Yes |
+| I want to navigate easily  |  | Yes |
 
 <br>
 
 | Returning Visitor Goal | Solution | Tested & Successfully Completed |
 | :----| :---| :----------------------:|
-| | | Yes |
-|  | | Yes |
-|  |  | Yes |
+| I want to test my knowledge on new words | | Yes |
+| I want to be able to decide if I can see the clues or not | | Yes |
+| I want to be able to start the game without scrolling to the bottom of the homepage |  | Yes |
 
 <br>
 
 | Frequent Visitor Goal | Solution | Tested & Successfully Completed |
 | :----| :---| :----------------------:|
-|  |  | Yes |
+| I want to test my knowledge on new words |  | Yes |
+| I want to keep record of my score and challenge myself with harder levels
+ |  | Yes |
 
 <br>
 
@@ -368,12 +390,17 @@ For Mobile Devices
 <details>
 <summary>Homepage</summary>
 
-![Screenshot of Lighthouse testing for homepage on mobile devices]()
+![Screenshot of Lighthouse testing for homepage on mobile devices](documentation/testing/lighthouse-mobile-homepage.png)
+</details>
+<details>
+<summary>How to Play Page</summary>
+
+![Screenshot of Lighthouse testing for game page on mobile devices](documentation/testing/lighthouse-mobile-rules.png)
 </details>
 <details>
 <summary>Game Page</summary>
 
-![Screenshot of Lighthouse testing for game page on mobile devices]()
+![Screenshot of Lighthouse testing for game page on mobile devices](documentation/testing/lighthouse-mobile-game.png)
 </details>
 
 <br>
@@ -382,12 +409,17 @@ For Desktop
 <details>
 <summary>Homepage</summary>
 
-![Screenshot of Lighthouse testing for homepage on desktop]()
+![Screenshot of Lighthouse testing for homepage on desktop](documentation/testing/lighthouse-desktop-homepage.png)
 </details>
 <details>
-<summary>Dates Page</summary>
+<summary>How to Play Page</summary>
 
-![Screenshot of Lighthouse testing for game page on desktop]()
+![Screenshot of Lighthouse testing for game page on desktop](documentation/testing/lighthouse-desktop-rules.png)
+</details>
+<details>
+<summary>Game Page</summary>
+
+![Screenshot of Lighthouse testing for game page on desktop](documentation/testing/lighthouse-desktop-game.png)
 </details>
 
 <br>
@@ -397,12 +429,17 @@ HTML
 <details>
 <summary>Homepage</summary>
 
-![Screenshot of WC3 testing for homepage]()
+![Screenshot of WC3 testing for homepage](documentation/testing/w3homepage.png)
+</details>
+<details>
+<summary>How to Play Page</summary>
+
+![Screenshot of WC3 testing for game page](documentation/testing/w3rules.png)
 </details>
 <details>
 <summary>Game Page</summary>
 
-![Screenshot of WC3 testing for game page]()
+![Screenshot of WC3 testing for game page](documentation/testing/w3game.png)
 </details>
 
 <br>
@@ -411,7 +448,7 @@ CSS
 <details>
 <summary>Stylesheet</summary>
 
-![Screenshot of W3C Jigsaw testing for CSS Stylesheet]()
+![Screenshot of W3C Jigsaw testing for CSS Stylesheet](documentation/testing/)
 </details>
 
  <br>
