@@ -24,31 +24,36 @@ const closeButton = document.getElementsByClassName("modal-button")[0];
 function displayWinModal() {
     winModal.style.display = "block";
     winModal.focus();
-    winModal.addEventListener("click", closeModalNewGame)
+    closeButton.addEventListener("click", closeModalNewGame);
+    winModal.addEventListener("click", closeModalNewGame);
 }
 
 function displayLostModal() {
     lostModal.style.display = "block";
     lostModal.focus();
-    lostModal.addEventListener("click", closeModalNewGame)
+    closeButton.addEventListener("click", closeModalNewGame);
+    lostModal.addEventListener("click", closeModalNewGame);
 }
 
 function displayCorrectModal() {
     correctModal.style.display = "block";
     correctModal.focus();
+    closeButton.addEventListener("click", closeCorrectModal);
     correctModal.addEventListener("click", closeCorrectModal);
 }
 
 function displayIncorrectModal() {
     incorrectModal.style.display = "block";
     incorrectModal.focus();
-    incorrectModal.addEventListener("click", closeModalContinue)
+    closeButton.addEventListener("click", closeModalContinue);
+    incorrectModal.addEventListener("click", closeModalContinue);
 }
 
 function displayNoAnswerModal() {
     noAnswerModal.style.display = "block";
     noAnswerModal.focus();
-    noAnswerModal.addEventListener("click", closeModalContinue)
+    closeButton.addEventListener("click", closeModalContinue);
+    noAnswerModal.addEventListener("click", closeModalContinue);
 }
 
 // MODAL close functions
@@ -202,20 +207,20 @@ function resetAnswerBox() {
 /** Event listeners for the check answer and new game buttons */
 function loadButtons() {
     let newGameButton = document.getElementById("new-game");
-    newGameButton.addEventListener("click", startGame)
+    newGameButton.addEventListener("click", startGame);
 
     let checkAnswerButton = document.getElementById("check-answer");
-    checkAnswerButton.addEventListener("click", checkAnswer)
+    checkAnswerButton.addEventListener("click", checkAnswer);
 
     let clueCircleSwitch = document.getElementById("switch-circle");
-    clueCircleSwitch.addEventListener("click", moveToggle)
+    clueCircleSwitch.addEventListener("click", moveToggle);
 
     // Enable user to press enter to check answer
     // code taken from Code Institute Love Maths project walkthrough: https://bit.ly/3Z9GuUs
     document.getElementById("user-answer").addEventListener("keydown", function(event) {
         if (event.key === "Enter") {
             checkAnswer();
-        }})
+        }});
 }
 
 function moveToggle() {
