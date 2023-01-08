@@ -258,47 +258,6 @@ function displayIcon() {
     }
 }
 
-// function trapFocus(e) {
-//     let focusableElString = "a[href], input:not([disabled]), button:not([disabled])";
-//     let focusableElements = correctModal.querySelectorAll(focusableElString);
-
-//     focusableElements - Array.prototype.slice.call(focusableElements);
-
-//     let firstTabStop = focusableElements[0];
-//     let lastTabStop = focusableElements[focusableElements.length - 1];
-
-//     firstTabStop.focus();
-
-//     if (e.key = "Tab") {
-//         if (e.shiftKey) {
-//             if (document.activeElement === firstTabStop) {
-//                 e.preventDefault();
-//                 lastTabStop.focus();
-//             }
-//         } else {
-//             if (document.activeElement === lastTabStop) {
-//                 e.preventDefault();
-//                 firstTabStop();
-//             }
-//         }
-//     }
-
-//     if (e.key = "Escape") {
-//         closeCorrectModal();
-//     }
-// }
-
-
-
-
-// function catchFocus() {
-//     if (correctModal.style.display === "block") {
-//         closeButton.focus();
-//     } else {
-//         rawUserAnswer.focus();
-//     }
-// }
-
 startGame();
 
 
