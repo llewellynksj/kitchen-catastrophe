@@ -126,24 +126,24 @@ To create the wireframes I used the [Balsamiq Wireframing Software](https://bals
 <details>
 <summary>Homepage (mobile)</summary>
 
-![Wireframe image of homepage design on mobile](documentation/mobile-homepage.png)
+![Wireframe image of homepage design on mobile](documentation/wireframes/mobile-homepage.png)
 </details>
 <details>
 <summary>Homepage (desktop)</summary>
 
-![Wireframe image of homepage design on desktop](documentation/desktop-homepage.png)
+![Wireframe image of homepage design on desktop](documentation/wireframes/desktop-homepage.png)
 </details>
 
 <br>
 <details>
 <summary>How to Play page (mobile)</summary>
 
-![Wireframe image of homepage design on mobile](documentation/mobile-rulespage.png)
+![Wireframe image of homepage design on mobile](documentation/wireframes/mobile-rulespage.png)
 </details>
 <details>
 <summary>Homepage (desktop)</summary>
 
-![Wireframe image of homepage design on desktop](documentation/desktop-rulespage.png)
+![Wireframe image of homepage design on desktop](documentation/wireframes/desktop-rulespage.png)
 </details>
 
 <br>
@@ -151,12 +151,12 @@ To create the wireframes I used the [Balsamiq Wireframing Software](https://bals
 <details>
 <summary>Game page (mobile)</summary>
 
-![Wireframe image of dates page design on mobile](documentation/mobile-gamepage.png)
+![Wireframe image of dates page design on mobile](documentation/wireframes/mobile-gamepage.png)
 </details>
 <details>
 <summary>Dates page (desktop)</summary>
 
-![Wireframe image of dates page design on desktop](documentation/desktop-gamepage.png)
+![Wireframe image of dates page design on desktop](documentation/wireframes/desktop-gamepage.png)
 </details>
 
 <br>
