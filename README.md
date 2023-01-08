@@ -164,6 +164,8 @@ The website has 2 main pages accessible to the user which; the homepage where th
 <br>
 
 ### Game Page
+Clue Hint
+[![Image from Gyazo](https://i.gyazo.com/41043052dc6f8ae8130f35ba6417839a.gif)](https://gyazo.com/41043052dc6f8ae8130f35ba6417839a)
 
 <br>
 
