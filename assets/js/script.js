@@ -56,18 +56,21 @@ function closeModalNewGame() {
     winModal.style.display = "none";
     lostModal.style.display = "none";
     startGame();
+    rawUserAnswer.focus();
 }
 
 function closeCorrectModal() {
     correctModal.style.display = "none";
     checkLevel();
     displayIcon();
+    rawUserAnswer.focus();
 }
 
 function closeModalContinue() {
     correctModal.style.display = "none";
     incorrectModal.style.display = "none";
     noAnswerModal.style.display = "none";
+    rawUserAnswer.focus();
 }
 
 /** Starts the game
