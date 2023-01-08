@@ -215,9 +215,9 @@ function moveToggle() {
     clueToggle.classList.toggle("active");
 
     if (clueToggle.classList.contains("active")) {
-        clueParagraph.style.display = "none";
-    } else {
         clueParagraph.style.display = "block";
+    } else {
+        clueParagraph.style.display = "none";
     }
 }
 

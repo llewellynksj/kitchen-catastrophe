@@ -247,6 +247,10 @@ i {
     letter-spacing: 2px;
 }
 
+#display-clue {
+    display: none;
+}
+
 /********** Clue toggle switch  **********/
 /* Code adapted from Coding Power tutorial: https://www.youtube.com/watch?v=R6ODcr-MwKE */
 .switch-clue * {
@@ -287,7 +291,7 @@ i {
     left: 110px;
     width: 40px;
     height: 20px;
-    background-color: #BEE2A6;
+    background-color: black;
     border-radius: 30px;
     transition: 0.3s;
 }
@@ -306,7 +310,7 @@ i {
 }
 
 .switch-container .switch-toggle.active {
-    background: black;
+    background: #BEE2A6;
 }
 
 .switch-container .switch-toggle.active #switch-circle {
