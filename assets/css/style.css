@@ -184,10 +184,6 @@ i {
 }
 
 /********** Game page styles **********/
-#main-container {
-    margin-top: 0;
-}
-
 #game-board {
     border-radius: 35px;
     height: auto;
