@@ -91,7 +91,7 @@ Kitchen Catastrophe is a fun and light-hearted game aimed at anyone who loves a 
 ### **Colour Scheme**
 This website uses primarily a palette of green and orange colours to reflect a fresh, clean, foodie feel. The palette was created using the [Coolors](https://coolors.co/) website.
 
-![Image of colour palette from Coolors.co]()
+![Image of colour palette from Coolors.co](documentation/readme-images/colour-scheme.png)
 
 <br>
 
@@ -101,14 +101,21 @@ This website uses primarily a palette of green and orange colours to reflect a f
 - Permanant Marker: Used for the game title only
 
 Andika was chosen as the primary font as it's in keeping with the sense of fun and games.
-Permanant Marker was chosen as it feels in keeping with the title itself; 'Kitchen Catastrophe'. It gives a sense of wildness.
+
+<br>
+
+Permanant Marker was chosen as it feels in keeping with the title itself; 'Kitchen Catastrophe'. It gives a sense of calamity.
+![Image of the title using the Permanant Marker font](documentation/readme-images/title.png)
 
 Both were also chosen to ensure maximum accessibility.
 
 <br>
 
 ### **Imagery**
+Images found throughout the website were sourced from [Shutterstock](https://www.shutterstock.com/).
+The background image was chosen as it fit with the theme of being fun and whimsical. This background was the base of choice for the rest of the colour palette.
 
+Photographs of real people were used (as opposed to animated/cartoon imagery). This bring a certain adult feel to the game ensuring adults know it's a game for them.
 
 Icons used on the homepage and support page were imported through [Font Awesome](https://fontawesome.com/).
 
@@ -119,12 +126,24 @@ To create the wireframes I used the [Balsamiq Wireframing Software](https://bals
 <details>
 <summary>Homepage (mobile)</summary>
 
-![Wireframe image of homepage design on mobile]()
+![Wireframe image of homepage design on mobile](documentation/mobile-homepage.png)
 </details>
 <details>
 <summary>Homepage (desktop)</summary>
 
-![Wireframe image of homepage design on desktop]()
+![Wireframe image of homepage design on desktop](documentation/desktop-homepage.png)
+</details>
+
+<br>
+<details>
+<summary>How to Play page (mobile)</summary>
+
+![Wireframe image of homepage design on mobile](documentation/mobile-rulespage.png)
+</details>
+<details>
+<summary>Homepage (desktop)</summary>
+
+![Wireframe image of homepage design on desktop](documentation/desktop-rulespage.png)
 </details>
 
 <br>
@@ -132,12 +151,12 @@ To create the wireframes I used the [Balsamiq Wireframing Software](https://bals
 <details>
 <summary>Game page (mobile)</summary>
 
-![Wireframe image of dates page design on mobile]()
+![Wireframe image of dates page design on mobile](documentation/mobile-gamepage.png)
 </details>
 <details>
 <summary>Dates page (desktop)</summary>
 
-![Wireframe image of dates page design on desktop]()
+![Wireframe image of dates page design on desktop](documentation/desktop-gamepage.png)
 </details>
 
 <br>
@@ -146,27 +165,76 @@ To create the wireframes I used the [Balsamiq Wireframing Software](https://bals
 
 ## Features
 ### **Existing Features**
-The website has 2 main pages accessible to the user which; the homepage where the game instructions can be found, and the game play page itself.
+The website has 3 main pages accessible to the user which; the homepage, the How to Play page where the game instructions can be found, and the Game page itself.
 
 **All** pages include the following features:
 - Logo: Chefs hat image
+![Image of the chef hat logo](documentation/readme-images/chefhat.png)
 
 - Navigation bar: Quick links to the game and back to the homepage
+![Image of the navigation bar that appears on all pages](documentation/readme-images/nav-bar.png)
 
 - Title: Kitchen Catastrophe
-
-- Footer: 
 
 <br>
 
 ### Homepage
+The homepage is very simple and acts as a home base to set the scene for the idea behind the game. Here the user is told the premise; that the chefs need help to unscramble lots of food and drink related words.
+From here they can click on the call to action button to take them to the 'How to Play' page, or they can use the navigation links at the top of the page to go straight to the game.
+![Screenshot of the Kitchen Catastrophe Homepage](documentation/readme-images/homepage.png)
+
+<br>
+
+### How to Play Page
+This page consists of:
+- Rules
+The first information the user will see is the rules/instructions. These are very straightforward and simply set out over 3 lines.
+
+- Icons
+Icons that represent the 3 categories are illustrated here and also serve to seperate the text of the rules and the levels for better UX.
+ 
+- Levels
+A list highlights what the user can expect in terms of levels and categories
+
+- Call to action button
+At the bottom of the page the user can click on the 'Start unscrambling' button to take them into the gameplay.
+
+![Screenshot of the Kitchen Catastrophe How to Play page](documentation/readme-images/rules-page.png)
+
 
 <br>
 
 ### Game Page
-Clue Hint
+- Player Stats
+The user will be able to see the level they are on, their score, and how many times they have got the answer wrong.
 
+- Category
+This changes dependent on the level; either food, drink, or cooking methods. All with a relevant icon.
+
+- The scrambled word
+Here the word that is all jumbled appears for the user to solve.
+
+- User Answer box
+The user answer box appears with placeholder text so that the user knows where to input their answer. Focus returns to this box after any modals are closed.
+
+- Clue Hint
+A clue is provided but only activated by using the toggle button. This means the user has a choice over making the game a little more easy/difficult.
 [![Image from Gyazo](https://i.gyazo.com/2026981a7b64fe95f4e232a4ec82f375.gif)](https://gyazo.com/2026981a7b64fe95f4e232a4ec82f375)
+
+- Buttons
+Immediately under the clue is the 'Check Answer' button. A stronger font is used for this button to make it stand out better as it will be most frequently used during gameplay.
+
+![Screenshot of the Kitchen Catastrophe Game page](documentation/readme-images/game-page.png)
+
+<br>
+
+### Modals
+Dependent on what the user has input for their answer, when the Check Answer button is clicked one of 5 possible modals will show. These include:
+ - Advises user their answer is correct
+ - Advises user their answer is incorrect
+ - Advises user no answer was input
+ - Advises user they have won the game
+ - Advises user they have lost the game
 
 <br>
 
