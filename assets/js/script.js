@@ -23,26 +23,31 @@ const closeButton = document.getElementsByClassName("modal-button")[0];
 // MODAL display functions
 function displayWinModal() {
     winModal.style.display = "block";
+    winModal.focus();
     winModal.addEventListener("click", closeModalNewGame)
 }
 
 function displayLostModal() {
     lostModal.style.display = "block";
+    lostModal.focus();
     lostModal.addEventListener("click", closeModalNewGame)
 }
 
 function displayCorrectModal() {
     correctModal.style.display = "block";
+    correctModal.focus();
     correctModal.addEventListener("click", closeCorrectModal);
 }
 
 function displayIncorrectModal() {
     incorrectModal.style.display = "block";
+    incorrectModal.focus();
     incorrectModal.addEventListener("click", closeModalContinue)
 }
 
 function displayNoAnswerModal() {
     noAnswerModal.style.display = "block";
+    noAnswerModal.focus();
     noAnswerModal.addEventListener("click", closeModalContinue)
 }
 
@@ -128,7 +133,6 @@ theClue.innerHTML = randomWord.clue;
 
 /** Check the users answer against the correct word */
 function checkAnswer() {
-    // trapFocus();
     // Get the word that the user inputs - implement regex to remove space characters and convert string to lowercase
     let userAnswer = rawUserAnswer.value.replace(/\s/g, "");
     let inputAnswer = userAnswer.toLocaleLowerCase();
@@ -281,6 +285,17 @@ function displayIcon() {
 
 //     if (e.key = "Escape") {
 //         closeCorrectModal();
+//     }
+// }
+
+
+
+
+// function catchFocus() {
+//     if (correctModal.style.display === "block") {
+//         closeButton.focus();
+//     } else {
+//         rawUserAnswer.focus();
 //     }
 // }
 
