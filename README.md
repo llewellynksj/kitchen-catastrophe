@@ -169,9 +169,9 @@ The website has 3 main pages accessible to the user which; the homepage, the How
 
 **All** pages include the following features:
 - Logo: Chefs hat image
-![Image of the chef hat logo](documentation/readme-images/chefhat.png)
 
 - Navigation bar: Quick links to the game and back to the homepage
+
 ![Image of the navigation bar that appears on all pages](documentation/readme-images/nav-bar.png)
 
 - Title: Kitchen Catastrophe
@@ -181,6 +181,7 @@ The website has 3 main pages accessible to the user which; the homepage, the How
 ### Homepage
 The homepage is very simple and acts as a home base to set the scene for the idea behind the game. Here the user is told the premise; that the chefs need help to unscramble lots of food and drink related words.
 From here they can click on the call to action button to take them to the 'How to Play' page, or they can use the navigation links at the top of the page to go straight to the game.
+
 ![Screenshot of the Kitchen Catastrophe Homepage](documentation/readme-images/homepage.png)
 
 <br>
@@ -219,6 +220,7 @@ The user answer box appears with placeholder text so that the user knows where t
 
 - Clue Hint
 A clue is provided but only activated by using the toggle button. This means the user has a choice over making the game a little more easy/difficult.
+
 [![Image from Gyazo](https://i.gyazo.com/2026981a7b64fe95f4e232a4ec82f375.gif)](https://gyazo.com/2026981a7b64fe95f4e232a4ec82f375)
 
 - Buttons
@@ -448,7 +450,7 @@ CSS
 <details>
 <summary>Stylesheet</summary>
 
-![Screenshot of W3C Jigsaw testing for CSS Stylesheet](documentation/testing/)
+![Screenshot of W3C Jigsaw testing for CSS Stylesheet](documentation/testing/w3css.png)
 </details>
 
  <br>
@@ -457,8 +459,8 @@ CSS
   
   | Raised by | Bug | Solution |
   | :---      | :---| :---     |
-  |  |  |  |
-  |  |  |  |
+  | User Tester | CSS appearance:button styling not working on iOS operating systems | Removed 'appearance: button' value from CSS and applied a uniform style across 'button' and 'a' elements |
+  | User Tester | When user presses 'Enter' when a modal is open it attempts to submit an empty answer not close the modal  | Used tabindex attribute on modal to move the focus there when a modal is displayed |
   |  |  |  |
   |  |  |  |
   |  |  |  |
@@ -474,10 +476,26 @@ CSS
 
 ## Credits
 ### **Resources**
-- [Code Institute]() HTML and CSS learning content and for providing the [template]() used to start this website
-- [Scrimba](https://scrimba.com/) - [JavaScript Tutorial]()
+- Code Institute HTML, CSS and JavaScript learning content and for providing the [template](https://github.com/Code-Institute-Org/gitpod-full-template) used to start this website
+- [Scrimba](https://scrimba.com/) - [JavaScript Tutorial](https://scrimba.com/learn/learnjavascript)
 - [W3Schools](https://www.w3schools.com/) For general tips and advice on a variety of HTML, CSS and JavaScript
-- 
+- [Coding Nepal](https://www.codingnepalweb.com/word-scramble-game-html-javascript/) Inspiration drawn from this tutorial
+- [James Bubb](https://dev.to/codebubb/how-to-shuffle-an-array-in-javascript-2ikj#:~:text=The%20first%20and%20simplest%20way,)%20=%3E%200.5%20-%20Math.) article outlining the Fisher Yates Algorithm
+- [W3Schools toLocaleLowerCase()](https://www.w3schools.com/jsref/jsref_tolocalelowercase.asp)
+- [W3Schools How to create a Modal box](https://www.w3schools.com/howto/howto_css_modals.asp)
+- [RelatedWords.io](https://relatedwords.io/food#) A source for finding words to add to my arrays
+- [Best for Puzzles](https://bestforpuzzles.com/lists/fruit-veg/10.html) A source for finding words to add to my arrays
+- [W3Schools defer attribute](https://www.w3schools.com/tags/att_script_defer.asp)
+- [MDN Web Docs translate()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate)
+- [MDN Web Docs Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+- [MDN Web Docs appearance](https://developer.mozilla.org/en-US/docs/Web/CSS/appearance)
+- [TechStacker](https://techstacker.com/close-modal-click-outside-vanilla-javascript/) - Research on trapping the focus in the modal
+- [Regular-Expressions.info](https://www.regular-expressions.info/quickstart.html) - Information on using regex to remove space characters
+- [Neumorphism.io](https://neumorphism.io/#ffffff) - Code adapted from this tool to create shadowing on containers
+- [MDN Web Docs DOMTokenList.toggle()](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle) - Information on using the toggle for switching the clue on and off
+- [Coding Power](https://www.youtube.com/watch?v=R6ODcr-MwKE&t=247s) Code adapted from this tutorial to create the toggle button
+- [Web Accessibility Guidelines](http://web-accessibility.carnegiemuseums.org/code/dialogs/) Used to help trap the focus on the modal using the tabindex
+- [CSS Tricks](https://css-tricks.com/overriding-default-button-styles/) - Code adapted from this article by Chris Coyler to create a uniform look across 'button' and 'a' elements
 
 <br>
 
