@@ -40,13 +40,6 @@ p {
     font-size: 15px;
 }
 
-a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #252525;
-    appearance: button;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -79,18 +72,25 @@ a {
     box-shadow:  -5px 8px 28px #666666, 5px 2px 28px #ffffff;
 }
 
-.buttons a, .buttons button {
-    background-color: #FFAD3A;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
+/* Code for uniform <button> and <a> elements adapted from https://css-tricks.com/overriding-default-button-styles/ */
+.buttons button, a {
+    display: inline-block;
     width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    background: #FFAD3A;
+    color: #252525;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
-.buttons a:hover, .buttons button:hover {
-    color: #252525;
-    background-color: #FFEBCE;
-    cursor: pointer;
+.buttons button:hover, a {
+    background: #FFEBCE;
 }
 
 /********** Nav bar & logo **********/
@@ -105,6 +105,7 @@ a {
     padding: 0;
     height: 80px;
     width: auto;
+    background: none;
 }
 
 .chef-hat {
@@ -326,6 +327,7 @@ i {
 #back-home {
     height: 21px;
     width: 130px;
+    background: #FFAD3A;
 }
 
 /********** Modal styles **********/
