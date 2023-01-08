@@ -1,8 +1,8 @@
 # Kitchen Catastrophe Word Game
 
-Kitchen Catastrophe is a word game aimed at providing light entertainment while also serving to test and better user's knowledge of food and drink vocabulary.
+Kitchen Catastrophe is a word game aimed at providing light entertainment while also serving to test and better user's knowledge of food and drink vocabulary. Levels begin with easier 4 and 5 letter words in the food and drink categories. These build to 5 and 6 letter words in levels 3 and 4. When the user reaches level 5 their unscrambling skills and foodie knowledge is tested with a new category; cooking methods. Finally the last level is a real test with 2 ten letter words to solve!
 
-![Image of the Kitchen Catastrophe website on a varitey of devices with differing screen sizes]()
+![Image of the Kitchen Catastrophe website on a varitey of devices with differing screen sizes](documentation/readme-images/amiresponsive-kitchen-catastrophe.png)
 
 [Visit the Kitchen Catastrophe live website here](https://llewellynksj.github.io/kitchen-catastrophe)
 
@@ -58,7 +58,7 @@ Kitchen Catastrophe is a word game aimed at providing light entertainment while 
 ## User Experience (UX)
 ### **Purpose**
 
-Kitchen Catastrophe...  
+Kitchen Catastrophe is a fun and light-hearted game aimed at anyone who loves a word problem and/or loves food and drink! 
 
 <br>
 
@@ -81,7 +81,7 @@ Kitchen Catastrophe...
 
 ### **Frequent Visitor Goals**
 - I want to test my knowledge on new words
-- I want to be able to suggest new words and clues
+- I want to keep record of my score and challenge myself with harder levels
 
 <br>
 
@@ -89,7 +89,7 @@ Kitchen Catastrophe...
 
 ## Design
 ### **Colour Scheme**
-This website uses primarily a palette of green colours to reflect a fresh, clean, foodie feel. The palette was created using the [Coolors](https://coolors.co/) website.
+This website uses primarily a palette of green and orange colours to reflect a fresh, clean, foodie feel. The palette was created using the [Coolors](https://coolors.co/) website.
 
 ![Image of colour palette from Coolors.co]()
 
