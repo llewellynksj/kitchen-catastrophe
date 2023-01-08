@@ -261,7 +261,7 @@ const levelOneFood = [
         word: "thyme",
         clue: "Herb"
     }
-]
+];
 
 // Level 2 array DRINK
 const levelTwoDrink = [
@@ -405,7 +405,7 @@ const levelTwoDrink = [
         word: "brew",
         clue: "A nickname for beer typically made at home"
     }
-]
+];
 
 // Level 3 array FOOD
 const levelThreeFood = [
@@ -665,7 +665,7 @@ const levelThreeFood = [
         word: "tortilla",
         clue: "A vital part of many Mexican dishes"
     }
-    ]
+];
 
 // Level 4 array DRINK
 const levelFourDrink = [
@@ -841,7 +841,7 @@ const levelFourDrink = [
         word: "tisane",
         clue: "Herbal tea"
     }
-]
+];
 
 // Level 5 array METHODS
 const levelFiveMethods = [
@@ -989,7 +989,7 @@ const levelFiveMethods = [
         word: "zest",
         clue: "Grating the outer skin of citrus fruit"
     }
-]
+];
 
 // Level 6 array TEN LETTERS
 const levelSixTenLetters = [
@@ -1137,4 +1137,4 @@ const levelSixTenLetters = [
         word: "teppanyaki",
         clue: "A form of Japanese cooking"
     }
-]
+];
