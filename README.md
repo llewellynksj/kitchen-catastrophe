@@ -81,7 +81,6 @@ Kitchen Catastrophe is a fun and light-hearted game aimed at anyone who loves a 
 
 ### **Frequent Visitor Goals**
 - I want to test my knowledge on new words
-- I want to keep record of my score and challenge myself with harder levels
 
 <br>
 
@@ -359,26 +358,24 @@ Testing was performed across a range of devices, including:
 
 | First Time Visitor Goal | Solution | Tested & Successfully Completed |
 | :----| :---| :----------------------:|
-| I want to play an engaging word game |  | Yes |
-| I want to test my food and drink knowledge  |  | Yes |
-| I want to be able to play on any of my devices |  | Yes |
-| I want to navigate easily  |  | Yes |
+| I want to play an engaging word game | Game is functioning and offers different levels of difficulty along with different categories to make it engaging | Yes |
+| I want to test my food and drink knowledge  | Each level contains words relating to food, drink and/or cooking | Yes |
+| I want to be able to play on any of my devices | Responsive design | Yes |
+| I want to navigate easily  | Navigation links remain at the top of each page so the user doesn't have to scroll to the end of the page to get to the game | Yes |
 
 <br>
 
 | Returning Visitor Goal | Solution | Tested & Successfully Completed |
 | :----| :---| :----------------------:|
-| I want to test my knowledge on new words | | Yes |
-| I want to be able to decide if I can see the clues or not | | Yes |
-| I want to be able to start the game without scrolling to the bottom of the homepage |  | Yes |
+| I want to test my knowledge on new words | There is a large enough array to come across new words over a few games | Yes - but this could be improved with the use of an open API which would provide a much larger array of words (see future features) |
+| I want to be able to decide if I can see the clues or not | Toggle button allows player to decide if they want to see the clue | Yes |
+| I want to be able to start the game without scrolling to the bottom of the homepage | Navigation links at the top of each page allow the player to quickly find the game page | Yes |
 
 <br>
 
 | Frequent Visitor Goal | Solution | Tested & Successfully Completed |
 | :----| :---| :----------------------:|
-| I want to test my knowledge on new words |  | Yes |
-| I want to keep record of my score and challenge myself with harder levels
- |  | Yes |
+| I want to test my knowledge on new words | There are a number of different words but they would become repetive and limited to a frequent user | The use of an API would make this goal more successful |
 
 <br>
 
