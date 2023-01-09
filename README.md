@@ -487,5 +487,7 @@ CSS
 <br>
 
 ### **Acknowledgements**
- - 
+I would like to thank the following people for their ongoing support in my coding student journey, and for sticking by me while I tried to learn Javascript in a few short weeks:
+ - My husband, James, for painstakingly checking my game every time I made a tiny change and dealing with my reaction every time he responded with constructive criticism.
+ - I want to thank my Code Institute mentor, Ronan McClelland, for his support and guidance. His reassuring words and signposting to the best resources online have made this possible.
 
