@@ -233,7 +233,6 @@ function moveToggle() {
     }
 }
 
-
 /** Displays the category icon dependent on the level */
 function displayIcon() {
     let foodIcon = document.getElementById("food-icon");

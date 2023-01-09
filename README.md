@@ -454,15 +454,9 @@ CSS
   | :---      | :---| :---     |
   | User Tester | CSS appearance:button styling not working on iOS operating systems | Removed 'appearance: button' value from CSS and applied a uniform style across 'button' and 'a' elements |
   | User Tester | When user presses 'Enter' when a modal is open it attempts to submit an empty answer not close the modal  | Used tabindex attribute on modal to move the focus there when a modal is displayed |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-
+  | User Tester | When playing the game on mobile the phone system sometimes automatically adds a space after the word. When the user then clicks check answer the result is that they are incorrect | Used a regex to remove space characters from the user answer when the check answer function runs |
+  | Lighthouse | Image size and type was causing some performance issues | Compressed images and converted to webp files |
+ 
 <br>
 
 ----
@@ -493,5 +487,5 @@ CSS
 <br>
 
 ### **Acknowledgements**
-
+ - 
 
