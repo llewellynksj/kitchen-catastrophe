@@ -471,7 +471,7 @@ CSS
 - [Scrimba](https://scrimba.com/) - [JavaScript Tutorial](https://scrimba.com/learn/learnjavascript)
 - [W3Schools](https://www.w3schools.com/) For general tips and advice on a variety of HTML, CSS and JavaScript
 - [Coding Nepal](https://www.codingnepalweb.com/word-scramble-game-html-javascript/) Inspiration drawn from this tutorial
-- [James Bubb](https://dev.to/codebubb/how-to-shuffle-an-array-in-javascript-2ikj#:~:text=The%20first%20and%20simplest%20way,)%20=%3E%200.5%20-%20Math.) article outlining the Fisher Yates Algorithm
+- [James Bubb]( https://bit.ly/3XZ3S6y) article outlining the Fisher Yates Algorithm
 - [W3Schools toLocaleLowerCase()](https://www.w3schools.com/jsref/jsref_tolocalelowercase.asp)
 - [W3Schools How to create a Modal box](https://www.w3schools.com/howto/howto_css_modals.asp)
 - [RelatedWords.io](https://relatedwords.io/food#) A source for finding words to add to my arrays
