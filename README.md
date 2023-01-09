@@ -1,6 +1,8 @@
 # Kitchen Catastrophe Word Game
 
-Kitchen Catastrophe is a word game aimed at providing light entertainment while also serving to test and better user's knowledge of food and drink vocabulary. Levels begin with easier 4 and 5 letter words in the food and drink categories. These build to 5 and 6 letter words in levels 3 and 4. When the user reaches level 5 their unscrambling skills and foodie knowledge is tested with a new category; cooking methods. Finally the last level is a real test with 2 ten letter words to solve!
+Kitchen Catastrophe is a word game aimed at providing light entertainment while also serving to test and better user's knowledge of food and drink vocabulary. 
+Levels begin with 4 and 5 letter words in both the food and drink categories. These build to 5 and 6 letter words in levels 3 and 4. 
+When the user reaches level 5, their unscrambling skills and foodie knowledge is put to the test with a new category; cooking methods. Finally the last level reuires 10 letter words to be solved!
 
 ![Image of the Kitchen Catastrophe website on a varitey of devices with differing screen sizes](documentation/readme-images/amiresponsive-kitchen-catastrophe.png)
 
@@ -88,7 +90,7 @@ Kitchen Catastrophe is a fun and light-hearted game aimed at anyone who loves a 
 
 ## Design
 ### **Colour Scheme**
-This website uses primarily a palette of green and orange colours to reflect a fresh, clean, foodie feel. The palette was created using the [Coolors](https://coolors.co/) website.
+This website uses primarily a palette of green and orange colours to reflect a fresh and clean feel. The palette was created using the [Coolors](https://coolors.co/) website.
 
 ![Image of colour palette from Coolors.co](documentation/readme-images/colour-scheme.png)
 
@@ -104,6 +106,7 @@ Andika was chosen as the primary font as it's in keeping with the sense of fun a
 <br>
 
 Permanant Marker was chosen as it feels in keeping with the title itself; 'Kitchen Catastrophe'. It gives a sense of calamity.
+
 ![Image of the title using the Permanant Marker font](documentation/readme-images/title.png)
 
 Both were also chosen to ensure maximum accessibility.
@@ -114,7 +117,7 @@ Both were also chosen to ensure maximum accessibility.
 Images found throughout the website were sourced from [Shutterstock](https://www.shutterstock.com/).
 The background image was chosen as it fit with the theme of being fun and whimsical. This background was the base of choice for the rest of the colour palette.
 
-Photographs of real people were used (as opposed to animated/cartoon imagery). This bring a certain adult feel to the game ensuring adults know it's a game for them.
+Photographs of real people were used (as opposed to animated/cartoon imagery). This brings a certain adult feel to the game ensuring adults know it's a game for them.
 
 Icons used on the homepage and support page were imported through [Font Awesome](https://fontawesome.com/).
 
@@ -140,7 +143,7 @@ To create the wireframes I used the [Balsamiq Wireframing Software](https://bals
 ![Wireframe image of homepage design on mobile](documentation/wireframes/mobile-rulespage.png)
 </details>
 <details>
-<summary>Homepage (desktop)</summary>
+<summary>How to Play page (desktop)</summary>
 
 ![Wireframe image of homepage design on desktop](documentation/wireframes/desktop-rulespage.png)
 </details>
@@ -153,7 +156,7 @@ To create the wireframes I used the [Balsamiq Wireframing Software](https://bals
 ![Wireframe image of dates page design on mobile](documentation/wireframes/mobile-gamepage.png)
 </details>
 <details>
-<summary>Dates page (desktop)</summary>
+<summary>Game page (desktop)</summary>
 
 ![Wireframe image of dates page design on desktop](documentation/wireframes/desktop-gamepage.png)
 </details>
@@ -337,6 +340,7 @@ Testing was performed across a range of devices, including:
 - HP Monitor (2560 x 1440)
 - Surface Pro 6 (1368 x 912)
 - Google Pixel 5
+- iPhone 13
 
 ### **Function Testing**
 
@@ -452,9 +456,9 @@ CSS
   
   | Raised by | Bug | Solution |
   | :---      | :---| :---     |
-  | User Tester | CSS appearance:button styling not working on iOS operating systems | Removed 'appearance: button' value from CSS and applied a uniform style across 'button' and 'a' elements |
-  | User Tester | When user presses 'Enter' when a modal is open it attempts to submit an empty answer not close the modal  | Used tabindex attribute on modal to move the focus there when a modal is displayed |
-  | User Tester | When playing the game on mobile the phone system sometimes automatically adds a space after the word. When the user then clicks check answer the result is that they are incorrect | Used a regex to remove space characters from the user answer when the check answer function runs |
+  | User Tester | CSS 'appearance:button' styling for 'a' elements not working on iOS operating systems | Removed 'appearance: button' value from CSS and applied a uniform style across 'button' and 'a' elements |
+  | User Tester | If user presses 'Enter' when a modal is open it attempts to submit an empty answer rather than close the modal  | Used tabindex attribute on modal to move the focus to it when a modal is displayed |
+  | User Tester | When playing the game on mobile, the phone system sometimes automatically adds a space after the word. When the user then clicks check answer the result is that they are incorrect | Used a regex to remove space characters from the user answer when the check answer function runs |
   | Lighthouse | Image size and type was causing some performance issues | Compressed images and converted to webp files |
  
 <br>
