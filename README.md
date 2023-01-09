@@ -343,19 +343,15 @@ Testing was performed across a range of devices, including:
 
 | Page | Test | Successfully Completed |
 | :----| :---| :----------------------:|
-| All  |  | Yes |
+| All  | Logo image links back to homepage | Yes |
 | All  | Navigation links go to relevant page | Yes |
-| All  |  | Yes |
-| All  |  | Yes
+| All  | Call to action buttons link to relevant pages | Yes |
 | All  | Call to action buttons link to relevant page | Yes |
-| All  |  | Yes |
-| Homepage |  | Yes |
-| Dates  |  | Yes |
-| Support  |  | Yes |
-| Support  |  | Yes |
-| Contact  |  | Yes |
-| Contact  |  | Yes |
-| Contact  |  | Yes |
+| All  | Images and icons load | Yes |
+| Game | Level, score and attempts correctly increase with gameplay | Yes |
+| Game  | The scrambled word shows with jumbled letters | Yes |
+| Game | The check answer button works and returns the correct modal informing the player if their answer is correct/incorrect | Yes |
+| Game  | The clue on/off toggle works showing the clue when on and removing it when off | Yes |
 
 <br>
 
